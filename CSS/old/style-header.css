@@ -1,0 +1,363 @@
+/* prefijos
+
+# ES PARA ID
+.  ES PARA CLASS
+
+-webkit-  Google Chrome, Safari, Navigator
+-moz-  Firefox
+-o- Opera
+-ms- Internet explorer Edge
+-khtml-  Konqueror
+
+*/
+
+/*
+
+Responsive design y mobile first
+La clave de responsive design es que no aparezca la barra horizontal de
+@media screen and (min-width: 480px){
+	
+}
+/* PARA MOVIL HORIZONTAL: */ /*
+@media screen and (min-width: 480px){
+	
+}
+/* PARA TABLET: */ /*
+@media screen and (min-width: 767px){
+	
+}
+/* PARA MONITORES: */ /*
+@media screen and (min-width: 950px){
+	
+}
+
+*/
+
+body{
+	<background: purple;  #233D58;
+	font-size: 16px;
+	font-family: 'aldo', sans-serif;
+	position: relative;
+	
+}
+
+
+header	{
+	width: 100%;
+	background: skyblue;
+	height:40px;
+
+	
+}
+
+header h1{
+	display: none;
+
+}
+
+
+nav{
+display: inline-block;
+vertical-align: middle;
+width: 60%;
+height: 35px;
+blackground: yellow;
+
+}
+
+
+ div#flag{
+	position: absolute;
+	display: inline-block;
+	right: 40px;
+	top: -10px;
+	width: 40px;
+	blackground: red;
+}
+	
+
+
+
+
+div#flag figure{
+	width: 30px;
+	height:30px;
+}
+
+
+#flag_en{
+	height:100%;
+}
+
+header  nav figure {
+	margin: 0px;
+	height: 40px;
+	width: 30px;
+	vertical-align: middle;
+}
+
+
+header  nav figure img{
+	margin: 0px;
+	height:30px};
+	vertical-align:middle;
+}
+
+p{
+color : red;
+}
+
+
+header nav #card_menu{
+	display:none;
+	position: relative;
+	width: 230px;
+	height: 500px;
+	background: white;
+	top: -30px;
+	left:0px;
+	border-right: 3px solid #AFAEAE;
+	z-index: 999;
+	padding-bottom: 50px;
+}
+
+
+
+
+#card_premium{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 767px){
+	body{
+		>background: yellow;	
+
+	}	
+
+header{
+	height: 55px;
+	
+}
+header h1{
+	display: inline-block;
+	margin: 0px;
+	height:92%;
+	width: 15%;
+	margin:0px;
+	margin-left:15x;
+	line-height: 50px;
+	vertical-align: middle;
+	min-width: 220px;
+	
+}
+
+
+header h1 > * {
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	font-size: 0.7em;
+	margin: 0px 2px;
+}
+
+header a figure{
+	
+	vertical-align:middle;
+	height:45px;
+	width: 45px;
+	margin: 0px;
+}
+
+header a figure img{
+	width:100%;
+	border-radius: 20px;
+}
+
+
+header h1 a {
+	height: 48px;
+	vertical-align: middle;
+	
+	margin:0px;
+}
+
+
+
+header nav {
+	position: relative;
+	height:92%;
+	width:65%;
+	vertical-align: bottom;
+}
+
+
+
+
+
+
+
+header nav #showMenu, #p_exit,header nav div figure ,#logo_card{
+	display: none;
+}
+
+
+header nav #card_menu{
+	display: inline-block;
+	background: none;
+	position: relative;
+	width: 80%;
+	height: 100%;
+	top: 0px;
+	text-align:center;
+	padding:1px;
+}
+
+
+
+
+
+
+
+header nav #card_menu ul{
+	display: inline-block;
+	vertical-align:bottom;
+	margin:0px;
+	<margin-top: -15px;
+	padding: 0px;
+}
+
+header nav #card_menu ul li{
+	display: inline-block;
+	width: 70px;
+	
+	
+	margin: 0px 0px;
+	
+}
+
+
+
+header nav #card_menu ul li a, header nav #card_premium a{
+	color: white;
+	text-decoration: none;
+	vertical-align: bottom;
+	list-style: none;
+	line-height: 48px;
+	font-size:1.4em;
+}
+
+header nav #card_premium{
+	margin:0px;
+	display: inline-block;
+	position: absolute;
+	right:5px;
+}
+
+button{
+	
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 10px;
+	background:#233D58;
+	color:white;
+	cursor: pointer;
+	
+}
+
+div#flag figure{
+	position: relative;
+	right:5px;
+	height:40px;
+	width:40px;
+	
+}
+
+
+
+
+
+
+
+#flag_en{
+	height:100%;
+}
+
+
+
+
+/*header nav #card_premium a{
+
+}*/
+
+
+@media screen and (min-width: 950px){
+	body{
+		<background: green;	
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,224 @@
+<!-- 
+Esto es zona de comentarios
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+	<title>Quiénes somos</title>
+
+	<link rel="stylesheet" href="CSS/normalize.css">
+	<link rel="stylesheet" href="CSS/aller.css">
+	<link rel="stylesheet" href="CSS/aldo.css">
+	<link rel="stylesheet" href="CSS/icomoon.css">
+
+
+
+
+	<link rel="stylesheet" href="CSS/style-header-master.css">
+	<link rel="stylesheet" href="CSS/style-side-master.css">
+	<link rel="stylesheet" href="CSS/style-content-aboutus.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+
+
+</head>
+<body>
+
+
+<header>
+	<nav>
+		<div id="upper_nav" >
+			<p id="eoi">ESCUELA DE ORGANIZACIÓN INDUSTRIAL</p>
+				<a href="https://interactivechaos.com/es" target="a_blank">
+					<p id="tutor">TUTOR: DANIEL BURRUECO</p>     
+					<figure id="chaos"><img src="IMG//logo_interactive_chaos.png" alt=""></figure>    
+				</a>
+				
+
+		</div>
+	
+		<div  id="bottom_nav" >
+
+			 <a href="https://www.eoi.es/es"><figure id="hola"><img src="IMG//logo-eoi.png" alt=""></figure></a>
+			<div id="menu" > 
+							
+				<ul>
+					<li ><a  class="a_menu" id="contenido"  href="master.html">Proyecto</a></li>
+					<li ><a class="a_menu" id="resumen"  href="master.html">Resumen ejecutivo</a></li>
+					<li >
+						<a class="a_menu" id="sprints">Sprints </a>
+						<span id="flecha" class="material-symbols-rounded dropdown" onclick ="click_flecha()">expand_more</span>
+						<span id="flecha_up" class="material-symbols-rounded dropdown" onclick ="click_flecha_up()">expand_more</span>
+						<div id="panel" class="dropdown-content"> 
+						<ul id="ul_sprints">
+							<li><a class="a_sprints" href="https://1drv.ms/p/s!Av0KuwfcTShupK041c0jAjGWlXmQkw?e=qgdirL" target="_blank">Sp 0: Anteproyecto</a></li>
+							<li><a class="a_sprints" href="https://1drv.ms/w/s!Av0KuwfcTShupLE5RAUiluMrMY9JxQ?e=19yuro">Sp 1: Definición de problema. Hipótesis</a></li>
+							<li><a class="a_sprints" href="https://1drv.ms/w/s!Av0KuwfcTShupLU-1Zcb897Cy0Lvvw?e=A2JI9N">Sp 2: Análsis y diagnóstico. Mod.Negocio. Des. Técnico</a></li>
+							<li><a class="a_sprints" href="">Sp 3: Anteproyecto</a></li>
+							<li><a class="a_sprints" href="">Sp 4: Optimización resultados</a></li>
+							
+						</ul>
+
+
+						<div> 
+					</li>
+					<li ><a class="a_menu" id="who" href="quienes_somos.html">Quiénes somos</a></li>
+					<li ><a class="a_menu"  id="a_home" href="..//home.html" >Home</a></li>
+					
+							
+				</ul> 
+		</div>    
+
+	</nav>
+</header>
+
+<!-- Contenedor de la página -->
+<div class="contenedor_aboutus" >
+
+  <!-- The Grid -->
+  
+  
+    <!-- Left Column -->
+    
+    <!-- <aside class="c-third_aboutus"> 
+    <div class="c-container     margin-bottom"> -->
+        <aside id="indice" >
+          <div id="indice_continente">
+            <ul>
+              
+              <li class="indice_li_titulo"> <h5>INTEGRANTES</h5></li>
+              <li class="li_aboutus"><a class= "material-symbols-outlined" href="cv_jacb.html">Juan Antonio Calvo Benítez </a></li>
+              <li class="li_aboutus"><a class= "material-symbols-outlined" href="cv_djl.html">Daniel Jaenal Leiva </a></li>
+              <li class="li_aboutus"><a class= "material-symbols-outlined" href="cv_jldd.html">José Luís De Diego</a></li>
+              <li class="li_aboutus"><a class= "material-symbols-outlined" href="cv_jcm.html">Jesús Calvo Moreno</a></li>
+              <li class="li_aboutus"><a class= "material-symbols-outlined" href="cv_jlrp.html">José Luís Rubio Poyatos </a></li>
+
+              <li class="indice_li_titulo"><h5>TUTOR</h5></li>
+              <li class="li_aboutus"><a class= "material-symbols-outlined" href="https://interactivechaos.com/es/about-us">Daniel Burrueco</a></li>
+              
+          </div> -
+
+      
+        
+      
+    
+    </aside>
+
+    <!-- Right Column -->
+    <content >
+    
+      <div class="c-container card white margin-bottom">
+        <h2 class="text-grey padding-16"><i class="fa fa-search-plus  fa-fw margin-right w3-xxlarge text-teal"></i>Quiénes somos:</h2>
+        <div class="c-container">
+          
+          <p>E-Sports LOL Analytics y el prototipo de página web asociada a dicha empresa  son producto del proyecto de Fin de Master de Big Data y Business Analytics impartido por la Escuela de Negocios EOI  (Escuela de Organización Industrial) 2022-2023</p>
+
+          <p>Para el trabajo de fin de master, se propone a los alumnos desarrollar una propuesta de caso de negocio que haga uso de las metodologías y  técnicas propias de Big Data y Business Analysis aprendidas durante el curso </p>
+
+          <p>Para el desarrollo del caso de negocio, se propone las técnicas de design thinking y lean Startup </p>
+          
+        </div>
+        
+         
+      </div>  
+
+      <div class="c-container card white">
+        <h2 class="text-grey padding-16"><i class="fa fa-user  fa-fw margin-right w3-xxlarge text-teal"></i>Integrantes</h2>
+        <div class="c-container">
+          
+          
+        </div>
+      <div class="c-container">
+          <div id="carrete">
+            <figure>
+              <figcaption class="nom_foto">Juan A. Calvo</figcaption>
+              <a href="cv_jacb.html"><img class="foto_cv" src="IMG/Quienes_somos/juan.comic.jpg" alt=""></a>
+              <figcaption><div class="caja_cv"><a href="cv_jacb.html" class= "a_cv">CV</a></div></figcaption>
+            </figure>
+            <figure>
+              <figcaption class="nom_foto">Daniel Jaenal</figcaption>
+              <a href="cv_djl.html"><img class="foto_cv" src="IMG/Quienes_somos/gru.jpeg" alt=""></a>
+              <figcaption><div class="caja_cv"><a href="cv_djl.html" class= "a_cv">CV</a></div></figcaption>
+            </figure>
+             <figure>
+              <figcaption class="nom_foto">José Luís De Diego</figcaption>
+              <a href="cv_jldd.html"><img class="foto_cv" src="IMG/Quienes_somos/avatar1jldd.png" alt=""></a>
+              <figcaption><div class="caja_cv"><a href="cv_jldd.html" class= "a_cv">CV</a></div></figcaption>
+            </figure>
+             <figure>
+              <figcaption class="nom_foto">Jesús Calvo</figcaption>
+              <a href="cv_jcm.html"><img class="foto_cv" src="IMG/Quienes_somos/s-l500.jpg" alt=""></a>
+              <figcaption><div class="caja_cv"><a href="cv_jcm.html" class= "a_cv">CV</a></div></figcaption>
+            </figure>
+             <figure>
+              <figcaption class="nom_foto">José Luís Rubio</figcaption>
+              <a href="cv_jlrp.html" class= "a_cv"><img class="foto_cv" src="IMG/Quienes_somos/foto_jlrp.jpeg" alt=""></a>
+              <figcaption> <div class="caja_cv"><a href="cv_jlrp.html" class= "a_cv">CV</a></div> </figcaption>
+            </figure>
+
+          </div>
+        </div>  
+
+
+    </content>
+    
+
+      
+        
+
+        
+        
+      
+
+ 
+
+
+
+
+</div>
+
+
+
+<!-- <footer class="footer_display">
+  <p id="copyright" >@2023 E-Sport LoLo Analytics</p> 
+  <div id="footer_middle">
+    <p class="text_footer"><a id="legal" href="legal.html" >Aviso Legal</a></p> 
+    <p class="text_footer"><a id="privacidad" href="privacidad.html"  >Política de privacidad</a></p> 
+    <p class="text_footer"><a id="cookies" href="cookies.html"  >Política de cookies</a></p>
+     
+    </div>
+    <p id="who" ><a id="a_who" href="quienes_somos.html" target="_blank" >Quiénes Somos</a></p>
+  </footer> -->
+
+
+
+<script src ="SCRIPTS//script_header.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+	
+	
+
+
+
+

@@ -1,0 +1,411 @@
+/* prefijos
+
+# ES PARA ID
+.  ES PARA CLASS
+
+-webkit-  Google Chrome, Safari, Navigator
+-moz-  Firefox
+-o- Opera
+-ms- Internet explorer Edge
+-khtml-  Konqueror
+
+*/
+
+
+
+/*  Comandos flex
+	display:flex;
+	<--display: block ; <-- default
+	<--display: inline-block; | inline; grid   <-- other values
+
+	flex-direction: row; <-- default
+	<--flex-direction: row; <-- default
+	<-- flex-direction: column ; | row-reverse | column-reverse  ;
+
+	justify-content: flex-start; 
+	<--justify-content: flex-start; <-- default
+	<--justify-content: flex-end; |center |space-around |space-between <-- otros valores
+
+	align-items: center;   
+	<--align-items: stretch;   <-- default
+	<--align-items: flex-start; |flex-end; |center   <-- otros valores
+
+	flex-wrap: nowrap; <-- default
+	<--flex-wrap: nowrap; <-- default
+	<--flex-wrap: wrap; |wrap-reverse;  <-- otros valores
+*/
+
+/*
+
+Responsive design y mobile first
+La clave de responsive design es que no aparezca la barra horizontal de
+@media screen and (min-width: 480px){
+	
+}
+/* PARA MOVIL HORIZONTAL: */ /*
+@media screen and (min-width: 480px){
+	
+}
+/* PARA TABLET: */ /*
+@media screen and (min-width: 767px){
+	
+}
+/* PARA MONITORES: */ /*
+@media screen and (min-width: 950px){
+	
+}
+
+*/
+
+/*body{
+	
+	font-size: 1rem;
+	font-weight: 400;
+	line-height:1.5;
+	color: #212529;
+	text-align:left;
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+	
+	
+	
+}*/
+
+
+
+
+header{
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
+	margin: 0px;
+}
+
+#upper_nav{
+	background:#81b61d; 
+	color: #303030;
+	font-size:12px;
+	width:100%;
+	height:34px;
+	line-height: 34px;
+
+}
+
+
+#upper_nav > *{
+	display: inline-block;
+	height:100%;
+	margin:0px;
+}
+
+#upper_nav a > *{
+	display: inline-block;
+	margin:0px;
+}
+
+ p#eoi  {
+	color: #303030;
+	width:300px;
+	height:100%;
+	margin: 0px;
+	
+	margin-left:200px;
+}
+
+
+  p#tutor{
+	color: #303030;
+	width:200px;
+	height:100%;
+	margin: 0px;
+	
+	
+}
+
+
+figure#chaos,figure#chaos img{
+	height: 20px ;
+	
+	
+
+
+}
+
+
+
+
+#upper_nav a{
+	color: #303030;
+	text-decoration: none;
+	height: 100%;
+	position:absolute;
+	right:400px;
+	padding:0px}
+
+
+
+
+
+
+
+#bottom_nav{
+	height: 52px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	
+	background: hsla(0,0%,100%,0.85);
+	position: absolute;
+	z-index: 20;
+}
+
+
+
+header  nav #bottom_nav figure{
+	margin:0px;
+	margin-left:200px;
+	height: 54px;
+	width:15%;
+	vertical-align:middle; 
+	position:relative;
+}
+
+
+header  nav #bottom_nav figure img{
+	margin: 0px;
+	height:40px;
+	vertical-align:middle;
+	position: relative;
+	top: 7px;
+}
+
+
+	
+
+#menu{
+	display: inline-block;
+	position: relative;
+	width: 65%;
+	height: 100%;
+	top: 0px;
+	text-align:center;
+	padding:1px;
+}
+
+header nav #menu ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin:0px;
+	<margin-top: -15px;
+	padding: 0px;
+	position: relative;
+	}
+
+header nav #menu ul li{
+	display: inline-block;
+	width: 200px;
+	margin: 0px 0px;
+	position: relative;
+	top: 0.8em;
+}
+
+
+header nav #menu ul li a.a_menu{
+	color: black;
+	text-decoration: none;
+	list-style: none;
+	line-height: 48px;
+	font-size:0.7em;
+}
+
+header nav #menu ul li a#contenido{
+	color: black; 
+	border-bottom: 3px solid #233D58 ;
+} 
+
+
+#contenido:hover,#who:hover, #a_home:hover,#resumen:hover {
+	color: #233D58; 
+	border-bottom: 3px solid #233D58 ;
+	text-shadow: 0px 0px 7px darkgray;
+} 
+
+a#sprints{
+	position: inherit;
+}
+#flecha{
+	position:relative;
+	top:7px;
+	background:darkgray;
+	cursor:pointer;
+	position:relative;
+	 
+}
+
+#flecha_up{
+	position:relative;
+	border: 0.5px solid darkgray;
+	top:7px;
+	left: -27px;
+	background:whitesmoke;
+	color:darkgray;
+	cursor:pointer;
+	visibility:hidden;
+	transform: rotate(180deg);
+	
+}
+
+.dropdown-content {
+  	display: flex;
+  	visibility:hidden;
+  	position: absolute;
+  	left: -100px;
+  	background-color:   #f9f9f9;
+  	width:275%;
+  	height:175px;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+
+}
+	
+	.dropdown:hover{
+		border: 2px solid black;
+	}
+
+
+.dropdown ul li {
+  	display: flex;
+  	flex-direction: column;
+  	background:black;
+  	margin:0px;
+} 
+
+
+
+header nav div#bottom_nav div#menu ul li div.dropdown-content ul#ul_sprints{
+	width: 100%;
+	background:darkgray;
+	display:flex;
+	flex-direction:column;
+	justify-content: flex-start;
+}
+
+header nav div#bottom_nav div#menu ul li div.dropdown-content ul#ul_sprints li {
+	width: 98%;
+	font-size: 0.9em;
+	text-align: left;
+	margin:1px;
+	margin-left: 5px;
+}
+
+ a.a_sprints{
+	width: 100%;
+	font-size: 0.9em;
+	text-align: left;
+	margin:1px;
+	color:black;
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+
+ul#ul_sprints li:hover{
+background:lightgray;
+}
+
+ul#ul_sprints li:hover a.a_sprints{
+	text-shadow: 2px  1px white;
+}
+
+
+div#presentacion{
+
+
+	background: rgba(48,48,48,.5);
+	position: absolute;
+	top:200px;
+	left: 10%;
+	padding:3px 3px;
+	border-radius: 5px;
+}	
+
+p.present {
+ 	margin: 2px 2px;
+ 	font-size:18px;
+	color: white;
+	font-weight: 600;
+}	
+
+p.nombres {
+ 	margin: 2px 40px;
+ 	font-size:14px;
+	color: white;
+	font-weight: 200;
+}		
+
+
+
+footer	{
+	border: 1px solid white;
+	background: #233D58;
+	display: flex;
+	flex-direction: row;
+	font-family: arial;
+	font-size: 1em;
+	color: white;
+}
+
+footer p#copyright{
+	
+	margin-left: 2px;
+	}
+
+	footer p#who{
+	position: absolute;
+	right: 10px;
+	color:white;
+}
+
+
+#footer_middle{
+	display: flex;
+	flex-direction: row;
+}
+
+p.text_footer{
+margin-left: 4px;
+text-align: center;
+}
+
+footer p  a{
+	color:white;
+	text-decoration: none;
+}
+
+ 
+
+/*#sprints:before {
+  content: "\ea3e";
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

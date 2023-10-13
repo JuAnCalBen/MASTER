@@ -1,0 +1,2020 @@
+<!-- 
+Esto es zona de comentarios
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+	<title>Master EOI-TFM</title>
+
+	<link rel="stylesheet" href="CSS/normalize.css">
+	<link rel="stylesheet" href="CSS/aller.css">
+	<link rel="stylesheet" href="CSS/aldo.css">
+	<link rel="stylesheet" href="CSS/icomoon.css">
+
+
+	<link rel="stylesheet" href="CSS/style-header-master.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" href="CSS/style-content-master.css"> 
+	<link rel="stylesheet" href="CSS/style-side-master.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+
+ <header>
+	<nav>
+		<div id="upper_nav" >
+			<p id="eoi">ESCUELA DE ORGANIZACIÓN INDUSTRIAL</p>
+				<a href="https://interactivechaos.com/es" target="a_blank">
+					<p id="tutor">TUTOR: DANIEL BURRUECO</p>     
+					<figure id="chaos"><img src="IMG//logo_interactive_chaos.png" alt=""></figure>    
+				</a>
+				
+
+		</div> 
+	
+		<div  id="bottom_nav" >
+
+			 <a href="https://www.eoi.es/es"><figure id="hola"><img src="IMG//logo-eoi.png" alt=""></figure></a>
+			<div id="menu" > 
+							
+				<ul>
+					<li ><a  class="a_menu" id="contenido"  href="master.html">Proyecto</a></li>
+					<li ><a class="a_menu" id="resumen"  href="master.html">Resumen ejecutivo</a></li>
+					<li >
+						<a class="a_menu" id="sprints">Sprints </a>
+						<span id="flecha" class="material-symbols-rounded dropdown" onclick ="click_flecha()">expand_more</span>
+						<span id="flecha_up" class="material-symbols-rounded dropdown" onclick ="click_flecha_up()">expand_more</span>
+						<div id="panel" class="dropdown-content"> 
+							<ul id="ul_sprints">
+								<li class="items_menu"><a class="a_sprints" href="https://1drv.ms/b/s!Av0KuwfcTShupKsPC1QbEqFIRjqsBA?e=V2Av38" target="_blank">Sp 0: Anteproyecto</a></li>
+								<li class="items_menu"><a class="a_sprints" href="https://1drv.ms/w/s!Av0KuwfcTShupLE5RAUiluMrMY9JxQ?e=19yuro">Sp 1: Definición de problema. Hipótesis</a></li>
+								<li class="items_menu"><a class="a_sprints" href="https://1drv.ms/w/s!Av0KuwfcTShupLU-1Zcb897Cy0Lvvw?e=A2JI9N">Sp 2: Análsis y diagnóstico. Mod.Negocio. Des. Técnico</a></li>
+								<li class="items_menu"><a class="a_sprints" href="">Sp 3: Anteproyecto</a></li>
+								<li class="items_menu"><a class="a_sprints" href="">Sp 4: Optimización resultados</a></li>
+							
+							</ul>
+
+
+						<div> 
+					</li>
+					<li ><a class="a_menu" id="who" href="quienes_somos.html">Quiénes somos</a></li>
+					<li ><a class="a_menu"  id="a_home" href="..//home.html" >Home</a></li>
+					
+							
+				</ul> 
+		</div>    
+
+	</nav>
+</header> 
+ <script src ="SCRIPTS//script_header.js"></script> 
+ <script src ="SCRIPTS//script_content.js"></script> 
+
+<div id="banderola">
+	<img src="IMG//eoi_madrid_14.jpg">  
+	<div id="presentacion" >
+		<p class="present"> MASTER BIG DATA & BUSINESS ANALYTICS EOI 22/23</p>
+	    <p class="present "> PROYECTO FIN DE MASTER EQUIPO 1: </p>
+	    <p class="nombres icon-eject "> Juan Antonio Calvo  </p>
+		<p class="nombres icon-eject"> Daniel Jaenal   </p>
+		<p class="nombres icon-eject"> José Luís De Diego </p>
+		<p class="nombres icon-eject"> Jesús Calvo   </p>
+		<p class="nombres icon-eject"> José Luís Poyatos </p>
+	</div> 
+</div>	 
+
+
+<div class="container">
+
+
+
+ 
+	<aside id="indice">
+		<div id="indice_continente">
+			<ul>
+				<li id="li_up"><a class= "material-symbols-outlined" href="#intro">1 Introducción</a></li>
+				<li><a class= "material-symbols-outlined" href="#planteamiento">2 Oportunidad </a></li>
+				<li><a class= "material-symbols-outlined" href="#invest">3 Investigación </a></li>
+				<li><a class= "material-symbols-outlined" href="#analisis">4 Análisis </a></li>
+				<li><a class= "material-symbols-outlined" href="#estrategia">5 Plan estratégico</a></li>
+				<li><a class= "material-symbols-outlined" href="#accion">6 Plan de acción</a></li>
+				<li><a class= "material-symbols-outlined" href="#tecnica">7 Solución </a></li>
+				<li><a class= "material-symbols-outlined" href="#opti">8 Optimización</li>
+				<li id="li_bot"><a class= "material-symbols-outlined" href="#conclusiones">9 Conclusiones</a></li>
+			
+			</ul>
+		
+
+			<div id="avance" >
+			<p class="texto_avance">Avance de lectura</p>
+			<div  id="barra_avance"></div>
+			<p class="texto_avance" >Tiempo de lectura: </p>
+			<p class="texto_avance" ><span>15</span>min.  </p>
+			</div>
+		</div>
+	</aside>
+
+
+	<content id= "blabla" class="item">
+	
+	
+
+
+	<div id="intro" class="espaciado"></div>
+	<article id="intro_content">
+	
+		
+ 	
+		<h2 class="h2_master" >1. Introducción</h2>
+		
+
+
+
+		<h3 class="h3_master">1.1 ¿Qué son los E-Sports?</h3>
+	
+		
+		
+		<p>Los deportes electrónicos, o <span><a href="https://es.wikipedia.org/wiki/Deportes_electr%C3%B3nicos" target="a_blank">e-sports</a></span>, se constituyen como una industria que combina el mundo de los videojuegos con la competición profesional.</p> 
+
+		<p>La revolución de las nuevas tecnologías muestra desde hace tiempo  un gran impacto sobre la sociedad y la economía dando lugar a importantes modificaciones en numerosos modelos de negocios tradicionales, así como en la aparición de nuevas industrias, como es el caso de la industria de los videojuegos. Este sector cada vez tiene mayor potencial industrial y es uno de los sectores tecnológicos con mayor proyección de crecimiento. </p>
+
+		<p>Inicialmente los videojuegos empezaron como un hobby individual que se practicaba en el salón de casa con una videoconsola, con la mejora de las telecomunicaciones, su forma de juego se transformó a ser una experiencia comunitaria, con partidas entre usuarios y grupales. El crecimiento de esta industria de ocio ha sido exponencial, desbancando a otras industrias de ocio que eran hegemónicas en décadas pasadas. La industria del videojuego se ha convertido en la reina entre todas las industrias del ocio constituyéndose hoy en día en referente de la economía digital. En torno a esta industria han surgido puestos de trabajo específicos con un alto grado de profesionalización.</p>
+
+		<p>Como una industria derivada de la de los videojuegos, surge un negocio basado en éstos y que incorpora competiciones y retrasmisiones de dichos eventos, al más puro estilo de competiciones deportivas, que se presentan  tanto como ligas nacionales o internacionales y  que se han convertido en un fenómeno cultural que atrae a millones de espectadores y participantes en todo el mundo, conviertiéndose en un negocio en <span><a href="https://www.insiderintelligence.com/insights/esports-ecosystem-market-report/" target="a_blank">constante crecimiento</a></span>.  </p>
+
+		<figure id="img_evolucion">
+			<img src="IMG//evol_spect.jpg" alt="Espectadores e-sports USA">
+			<figcaption>Evolución de espectadores E-Sports en EE.UU.</figcaption>
+			<figcaption>Fuente:eMarketer.</figcaption>
+		</figure>
+
+
+		<p>No todos los videojuegos se pueden considerar e-sports, para que así lo sean,  tienen que cumplir una serie de condiciones específicas:</p>
+
+		<ul>
+			<li>El juego permite el enfrentamiento directo entre dos o más participantes.</li>
+			<li>Los jugadores compiten en igualdad de condiciones, siendo la victoria exclusivamente determinada por la habilidad de estos.</li>
+			<li>Existen ligas y competiciones oficiales reguladas con reglas y formadas por equipos y jugadores profesionales.</li>
+			<li>Goza de popularidad y seguimiento en sus retrasmisiones. </li>
+		</ul>
+
+
+		<h4 class="h4_master">1.1.1 Historia</h4>
+
+		<p>Aunque los videojuegos nacen a finales de la década de los 70 prácticamente a la par que los primeros ordenadores, hay que esperar hasta principios de la década de los 90 cuando empiezan a surgir las primeras competiciones en forma de torneos locales y en las que los jugadores empiezan a competir por premios en efectivo y reconocimiento. 
+		</p>
+
+		<p> A medida que la tecnología y la conectividad en línea avanzaban, los E-sports se expandieron a nivel global, con juegos como "<span class="negrita">Quake</span>" y "<span class="negrita">Counter-Strike</span>" definiendo el género de los juegos de disparos en primera persona <span class="negrita">Quake</span>(FPS)</span> y atrayendo a comunidades competitivas.
+		</p>
+
+
+
+		<p>La <span class="negrita">década de 2000</span> presenció un aumento constante en la profesionalización de los E-sports. Se establecieron ligas y organizaciones formales, y juegos como "<span class="negrita">Warcraft III</span>" y "<span class="negrita">StarCraft</span>" se convirtieron en fenómenos competitivos en Asia, particularmente en Corea del Sur. La aparición de plataformas de transmisión en línea permitió que las competiciones fueran accesibles para una audiencia global, sentando las bases para el auge de los E-sports en la década siguiente.
+		</p>
+
+		<p>Con el advenimiento de juegos como "<span class="negrita">League of Legends</span>", "<span class="negrita">Dota 2</span>" y "<span class="negrita">Overwatch</span>", los E-sports experimentaron un crecimiento explosivo en la <span class="negrita">década de 2010</span>. Los premios en efectivo aumentaron significativamente, y los eventos en vivo atraían a multitud de espectadores. Grandes marcas y patrocinadores comenzaron a invertir en los E-sports, y los jugadores se convirtieron en celebridades en la comunidad de los juegos. Hoy en día, los E-sports son una industria multimillonaria, con torneos de gran envergadura, ligas profesionales y equipos reconocidos internacionalmente, consolidando su lugar como una forma legítima y emocionante de competición y entretenimiento en el mundo digital.
+		</p>
+
+
+		<h4 class="h4_master">1.1.2 Tipos de juegos</h4>
+
+		<p>Aunque el mundo de los videojuegos lanza millares de juegos al año, son pocos los que se convierten, por sus características, objeto de competiciones formando parte del universo E-Sports.  En general, se pueden agrupar dentro de las siguientes clases:</p>
+		<ul>
+			<li><span><a href="https://es.wikipedia.org/wiki/Videojuego_de_disparos_en_primera_persona" target="_blank">FPS</a></span> (First Psrson Shooting) Disparos en primera persona: Juegos en los que los jugadores controlan un personaje desde una perspectiva en primera persona y se centran en la acción de disparar armas de fuego. Ejemplos: Counter-Strike: Globsal Offensive, Call of Duty, Overwatch.</li>
+			<li><span><a href="https://es.wikipedia.org/wiki/Videojuego_multijugador_de_arena_de_batalla_en_l%C3%ADnea" target="_blank">MOBA</a></span> (Arte de la Batalla en Línea Multijugador): Juegos de estrategia en tiempo real en los que dos equipos compiten para destruir la base del oponente. Los jugadores controlan héroes con habilidades únicas. Ejemplos: League of Legends, Dota 2, Heroes of the Storm</li>
+			<li>Juegos de lucha: Juegos en los que los jugadores controlan personajes con habilidades de lucha en combates uno contra uno o en equipo. Ejemplos: Street Fighter, Super Smash Bros., Tekken.</li>
+			<li> <span><a href="https://es.wikipedia.org/wiki/Videojuego_de_estrategia_en_tiempo_real" target="_blank">RTS</a></span>: Juegos de estrategia en tiempo real. Juegos en los que los jugadores gestionan recursos y ejércitos para derrotar a sus oponentes. Ejemplos: StarCraft II, Age of Empires, Warcraft III.</li>
+			<li><span><a href="https://es.wikipedia.org/wiki/Battle_royale_(videojuegos)" target="_blank">Battle Royale</a></span>: Juegos en los que un gran número de jugadores se enfrentan en un entorno de supervivencia hasta que quede un último jugador o equipo en pie. Ejemplos: Fortnite, PlayerUnknown's Battlegrounds (PUBG), Apex Legends.</li>
+			<li>Juegos de deportes: Simulaciones de deportes tradicionales como fútbol, baloncesto, carreras, etc., adaptados a entornos virtuales. Ejemplos: FIFA, NBA 2K, Rocket League.</li>
+			
+
+
+		</ul>
+
+
+		<h4 class="h4_master">1.1.3 Ingresos</h4>
+		<p>	La principal fuente de ingresos en el negocio de los e-sports proviene de patrocinios y acuerdos de colaboración con marcas. Empresas de tecnología, alimentación, ropa, etc  han invertido considerablemente en patrocinar equipos, jugadores y eventos, aprovechando la exposición a la audiencia global que los e-sports ofrecen. Además, los derechos de transmisión y los contratos de medios representan otra fuente significativa de ingresos, con plataformas de streaming y televisión que adquieren los derechos para transmitir en vivo los torneos.</p>
+
+		<p>	La venta de entradas para eventos presenciales y la organización de torneos también contribuyen al negocio de los e-sports. Grandes arenas y estadios se llenan de fanáticos para presenciar en vivo las emocionantes competencias, creando una atmósfera similar a la de los deportes tradicionales. Además, los ingresos por publicidad y mercancía, como camisetas y artículos temáticos, complementan las ganancias de la industria. </p>
+
+		<p>	La inversión en infraestructura y tecnología es esencial para mantener la competitividad en el negocio de los e-sports. Los equipos y jugadores requieren equipos de alta calidad, instalaciones de entrenamiento y asesoramiento técnico para mantener su rendimiento óptimo. Además, las ligas y organizaciones deben garantizar una experiencia de transmisión en línea de alta calidad para satisfacer las expectativas de los espectadores.</p>
+
+
+		<h4 class="h4_master">1.1.4 Equipos deportivos</h4>
+
+		 <p>Los atletas de los deportes electrónicos mantienen rigurosas rutinas de entrenamiento. A su disposición suelen contar con una infraestructura elaborada que incluye entrenadores, analistas e incluso psicólogos deportivos. Además de la preparación mental, mantener su forma física es esencial para lograr un rendimiento sobresaliente en las partidas. Por esta misma razón, muchos siguen regímenes alimenticios saludables y acuden al gimnasio.</p>
+
+		<p>Los clubes deportivos convencionales y hasta las grandes competiciones como La Liga española ya están incursionando en el ámbito de los deportes electrónicos. Un claro ejemplo es el Baskonia, el tercer club de baloncesto más grande de España que ha estado comprometido con los esports desde su inicio hace en 2015. Siguiendo esta tendencia, el FC Barcelona también ha reconocido el potencial en 2018. Incluso el icónico Santos Fútbol Club brasileño cuenta con su propia división electrónica. No obstante, estos no son los únicos clubes que se han sumado: ejemplos adicionales incluyen al Valencia CF, Schalke 04, Spotting de Lisboa, Manchester City, Wolfsburgo, West Ham United, Besiktas, y un largo etc.</p>
+
+
+
+		<h3 class="h3_master">1.2 ¿Qué es Riot?</h3>
+
+		<p>  <a href="https://www.riotgames.com/es">Riot Games Inc.</a> es una compañía estadounidense dedicada a la creación y publicación de videojuegos, así como a la organización de competiciones de deportes electrónicos. Tiene su sede en <span class="negrita">West Los Angeles, California</span>. Fundada en <span class="negrita">septiembre de 2006</span> por los emprendedores <span><a href="https://en.wikipedia.org/wiki/Riot_Games">Brandon  Beck y Marc  Merrill</a></span> con la principal idea de desrrollar el videojuego  League of Legends y construir un negocio en torno a él. En <span class="negrita"> 2009</span>liberan la versión beta para testeo del público y seis meses después, en  <span class="negrita">27 de octubre de 2009</span> por fin lanzan la versión oficial del juego, un videojuego en linea multijugador gratuito en el que el usuario puede realizar microcompras para acceder a extras. </p>
+
+		<p>Desde su lanzamiento, la empresa se dedica a mejorar el juego gracias a la interactuación en foros de los usuarios implementando ajustes según los comentarios recibidos, de forma que dos años depués de su lanzamiento, la empresa publica unos ingresos de 85 millones de dolares y traslada su sede europea de Brighton a Dublin </p>
+
+
+
+		<p>En <span class="negrita">febrero de 2011</span>, <span class="negrita"><a href="https://www.tencent.com/en-us/">Tencent Holdings Limited</a></span>, una de las empresas chinas más grandes del mundo del entretenimiento y la tecnología  <a href="https://venturebeat.com/games/chinas-tencent-acquires-majority-stake-in-online-game-firm-riot-games-for-more-than-350m/">adquirió la empresa Riot Games por más de 400 millones de dolares</a>.  A pesar de hacerse el control de la empresa, mantenía todo el equipo directivo y creativo de Riot Games, lo que permite mantener la estrategia inicial que habían diseñado Brandon Beck y Marc Merrill</p>
+
+		<p>La estrategia, entre otras ideas que se desarrollan más adelante al hablar específicamente de League of Legends, consistía en centrarse en mejorar la experiencia de usuario como si fuera un videojuego comercial de pago pero siguiendo siendo gratuíto. Esto le permitió crecer de una manera arrolladora, incrementando número de jugadores habituales suscritos e ingresos, hasta tal punto que ya en 2014 preveían unos ingresos de <a href="https://www.hobbyconsolas.com/noticias/riot-games-comienza-tener-beneficios-esports-88198">1000 millones de dólares</a> </p>
+
+
+
+		<p>La empresa ha generado diversos títulos relacionados con esta misma franquicia. Además del videojuego, Riot Games supervisa <span><a href="https://www.lolfinity.com/everything-about-the-lol-esports-structure/">14 ligas</a></span> e-sports a nivel global, incluyendo el prestigioso Campeonato del Mundo de League of Legends.
+		</p>
+		
+		
+		<h4 class="h4_master">1.2.1 Tencent</h4>	
+
+		<p>Tencent es un conglomerado multinacional chino fundado en 1998 por Ma Huateng, Zhang Zhidong y Xu Chenye. Entre sus diversas subsidiarias globales se encuentran empresas en las industrias de servicios en línea, música e inteligencia artificial. Pero quizás sea más conocido por su interés en el sector de los videojuegos, tanto como desarrollador de juegos para el mercado chino como adquirente de varias empresas de juegos establecidas. Tencent es una gran empresa con participación en más de 600 empresas. </p>
+
+		<p>Actuales negocios más significativos de Tencent Holdings:</p>
+
+		<ul>
+			<li><span class="negrita">Videojuegos en línea</span> como el COD Online o el Dungeon Fighter Online </li>
+			<li>Acuerdos con grandes productores para la <span class="negrita">distribución de música</span> </li>
+			<li><span class="negrita">E-commerce</span> como JD.com</li>
+			<li>Plataforma de mensajería instantánea como <span class="negrita">QQ</span></li>
+			<li><span class="negrita">Weibo</span>, plataforma en China similar a Twitter </li>
+			<li><span class="negrita">Wechat</span>, plataforma similar a whatssup en China, que cuenta con más de 770 millones de usuarios activos.</li>
+
+		</ul>
+
+		<figure id="tencent">
+			<img src="IMG//tescent.png" alt="Estructura Tencent">
+			<figcaption>Estructura empresarial Tescent.</figcaption>
+			
+		</figure>
+
+		<p>Las acciones de Tencent Holdings se negocian en la bolsa de Hong Kong (HKG) y en la <a href="https://www.google.com/search?q=cotizaci%C3%B3n+tencent+frankfurt&rlz=1C1UEAD_es&oq=cotizaci%C3%B3n+Tencent&aqs=chrome.1.69i57j0i512l2j0i22i30l2.14144j1j15&sourceid=chrome&ie=UTF-8">Bolsa de Frankfurt (FRA)</a>.</p>
+
+		<figure id="cotizacion">
+			<img src="IMG//Cotización.jpg" alt="Cotización Tencent">
+			<figcaption>Cotización Tencent.</figcaption>
+			
+		</figure>
+		
+
+		<h3 class="h3_master" >1.3 League of Legends</h3>
+	
+		<p> "League of Legends" (popularmente conocido par la abreviatura  LoL) es un popular videojuego en línea de estrategia con elementos multijugador, del género MOBA, que se enfoca en magia y tácticas, donde dos equipos compuestos por cinco jugadores cada uno, se esfuerzan por aniquilar la base enemiga. </p>
+
+		<p>Desde su lanzamiento oficial el <span class="negrita">27 de octubre de 2009</span> ha ganado  una gran base de jugadores y una presencia principal en la escena competitiva de los deportes electrónicos (E-Sports).</p>
+
+		<p> El juego involucra participar en diversas ligas, tanto de gran envergadura como más pequeñas, las cuales se llevan a cabo en diferentes partes del mundo. El evento principal de esta competición es el Campeonato Mundial, un evento que se extiende durante aproximadamente un mes y que establece el rumbo de la temporada para los mejores jugadores del juego.</p>
+
+		
+		<p>Debido a su popularidad y éxito, "League of Legends" se ha convertido en uno de los títulos más influyentes en la industria de los videojuegos y ha dado lugar a una extensa comunidad de jugadores, retransmisiones en vivo y estructura de ligas  competitivas sólida en los E-Sports, con torneos y campeonatos con un gran seguimiento a nivel mundial. </p>
+
+		<p>Para conseguir situarlo entre los E-sports más seguidos, Riot Games  adoptó  <span class="underline"> dos decisiones fundamentales</span> en la estrategia de comercialización de su videojuego League of Legends: </p>
+
+		<p>En primer lugar, han priorizado las <span class="underline">necesidades de los jugadores</span>. Los propios diseñadores y propietarios de la compañía son ávidos jugadores de League of Legends y otros títulos. Esta cercanía les permitió desde el comienzo a mejorar constantemente el juego, adaptándolo a las preferencias de su audiencia mediante actualizaciones mensuales y pruebas diarias.</p>
+
+		<p>La segunda decisión trascendental fue crear un <span class="underline">juego en línea gratuito</span>  para PC, decisión que creó a tendencia detro de la industria. Esto respondió a una demanda que experimentaba obstáculos significativos debido a las barreras de entrada asociadas con los pagos iniciales o suscripciones mensuales. Riot Games eliminó esta barrera al ofrecer un producto accesible y sin coste alguno para todo tipo de público.</p>
+
+		<p>Existen además otros dos hechos diferenciadores clave en la experiencia de juego en comparación con otros títulos existentes, lo que ha sido esencial para su éxito y está generando tendencias en el sector:</p>
+
+		<p>En primer lugar, han diseñado un juego con una <span class="underline">curva de aprendizaje inicial suave</span>, atrayendo a nuevos jugadores, y al mismo tiempo, una <span class="underline">curva de aprendizaje avanzada</span> que desafía a aquellos que aspiran a dominar el juego. Esto hace que League of Legends sea atractivo para un público casual que no puede dedicar mucho tiempo al juego, mientras que ofrece profundidad y desafío para los jugadores más dedicados.</p>
+
+		<p>El segundo diferenciador significativo es la <span class="underline">implementación de micropagos</span> que no desequilibran la experiencia de juego. Estos micropagos se enfocan en mejoras visuales y no otorgan ventajas competitivas por invertir más dinero. Esta estrategia fomenta una lealtad a largo plazo, ya que la ausencia de equilibrio en el juego solía llevar a la pérdida de jugadores. Además, la existencia de micropagos es esencial para mantener la estructura del juego. Riot Games ha gestionado esta dinámica de manera innovadora para no comprometer la base de jugadores, abordando así un problema que afectaba a muchos juegos que hacían uso de micropagos.</p>
+
+		<h4 class="h4_master">1.3.1 Ingresos League of Legend</h4>
+
+		<p>En <span class="negrita">enero de 2021</span>, League of Legends sólo gano por ingresos <span class="negrita">1,75$ mil millones de dólares</span>. Sus principales fuentes de ingresos son:</p>
+
+		<ul>
+		
+			<li> <span class="negrita">Compras en el juego:</span> Las microtransacciones en juegos como League of Legends generan importantes ingresos, ganando alrededor de <span class="negrita">$ 31 por segundo</span>.
+				<figure id="freetoplay">
+				<img src="IMG//freetoplay.png" alt="Esquema de negocio freetoplay">
+				<figcaption>Esquema de negocio Free-to play</figcaption>
+				</figure>
+
+			Es un factor muy importante a destacar que la mayoría de los ingresos de Riot Games son producidos por la tienda online y vienen dados de productos virtuales intangibles cuya inversión inicial es alta, pero a medida que pasa el tiempo sus costes son muy bajos comparado con los beneficios que se generan </p>
+			</li>
+			<li><span class="negrita">Publicidad:</span> La empresa gana con la publicidad durante los torneos de eSports transmitidos en plataformas como YouTube</li>
+		 	<li><span class="negrita">Deportes electrónicos:</span> Riot Games vende patrocinios, derechos de transmisión y entradas para eventos en vivo para sus torneos de eSports.</li>
+			<li><span class="negrita">Mercancías:</span> La empresa vende productos relacionados con juegos y colabora con marcas como Nike y Coca-Cola.</li>	
+		</ul>
+
+		<h4 class="h4_master">1.3.2 Evolución de suscriptores</h4>
+
+		<p>Desde su lanzamiento oficial, el número de <span id="suscriptores">suscriptores</span> no ha parado de crecer.</p>
+
+		<p>En agosto de 2023, últimos datos disponibles, cuenta con alrededor de <a href="https://activeplayer.io/league-of-legends/">150 millones</a> de  <span id="jug_activos">jugadores activos</span>; cuando en el mismo mes de 2020, el juego contaba con 105 millones de cuentas activas. Por tanto, a pesar de la antigüedad del juego, las mejoras y actualizaciones hacen que el total de jugadores siga en una dinámica creciente </p>
+
+		<figure id="stats_suscriptores">
+			<img src="IMG//evolucion_jugadores.jpg" alt="Evolución suscriptores">
+			<figcaption>Evolución suscriptores</figcaption>
+			<figcaption>Fuente: <a href="https://activeplayer.io/league-of-legends/">Activeplayer.io</a></figcaption>
+		</figure>
+
+		<p>Otros datos interesantes que desmuestran el impacto a nivel mundial que tiene el juego es el volumen de espectadores en retransmisiones de partidas o eventos a través de la plataforma <a href="https://es.wikipedia.org/wiki/Twitch">Twitch</a>. En agosto de 2023, ha habido retrasmisiones mundiales de partidas en Twitch con picos de audiencia de más de 400.000 espectadores y en ese mes, las horas totales  acumuladas de visualización de partidas o eventos a través de esa plataforma superaban los 95 millones de horas</p>
+
+		<figure id="quick_stats">
+			<img src="IMG//quickstats.jpg" alt="Estadísticas visualizaciones">
+			<figcaption>Datos actuales sobre visualizaciones</figcaption>
+			<figcaption>Fuente: <a href="https://activeplayer.io/league-of-legends/">Activeplayer.io</a></figcaption>
+		</figure>
+
+		<p>Según la página web Statista.com, los eventos de LoL en Twitch fueron vistos por una media de aproximadamente 129.400 espectadores en noviembre de 2022, última fecha donde presenta datos y muestra una claro crecimiento desde 2018. Su audiencia máxima en la plataforma de streaming la alcanzó en 2021, coincidiendo con el estreno de Netflix de la serie de animación <a href="https://es.wikipedia.org/wiki/Arcane"><span class="negrita">Arcane</span></a>, basada en el juego. Concretamente, se registraron más de algo más 280.000 espectadores a nivel mundial durante dicho mes.</p>
+
+		<figure id="web_statica">
+			<img src="IMG//espectadoes_statica.png" alt="Datos espectadores web STATICA">
+			<figcaption>Datos espectadores hasta 2022 según web Statica</figcaption>
+			<figcaption>Fuente: <a href="https://es.statista.com/estadisticas/1350233/espectadores-de-twitch-de-league-of-legends/">Statista.com</a></figcaption>
+		</figure>
+
+
+		<h4 class="h4_master">1.3.3 Ligas y competiciones</h4>
+
+		<p>Existen numerosas ligas y competiciones de LoL en todo el mundo tanto a nivel regional como mundial. Entre las  principales ligas y competiciones de LoL destacan:</p>
+
+		<ul>
+			<li>
+				<span class="negrita rojo">League of Legends Championship Series</span> <span class="negrita darkred">(LCS)</span>: La LCS es la liga profesional de LoL en América del Norte (Estado Unidos y Canadá). Se juega en dos divisiones: la LCS y la Academy League, que sirve como cantera de talentos. Los equipos compiten en temporadas regulares y playoffs para ganar el título de campeón de la región y la oportunidad de representar a NA en torneos internacionales.
+
+				<div id="lcs_container" class="ligas_container">
+				<a href="https://es.wikipedia.org/wiki/League_Championship_Series"><img src="IMG//logo_lcs.png" alt="" class="ligas_logos"></a>
+				<a href="https://twitter.com/LCSOfficial"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.youtube.com/lcs"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.twitch.tv/lcs"><i class="fab fa-twitch"></i></a>
+			
+				</div>
+			</li>
+
+			<li>
+				<span class="negrita rojo">League of Legends European Championship</span> <span class="negrita darkred">(LEC)</span>: La LEC es la liga equivalente en Europa, que sigue un formato similar al de la LCS. Los equipos compiten en temporadas regulares y playoffs, y el campeón europeo avanza a competiciones internacionales.
+
+				<div id="lec_container" class="ligas_container">
+				<a href="https://es.wikipedia.org/wiki/League_of_Legends_EMEA_Championship"><img src="IMG//LEC-logo.jpg" alt="" class="ligas_logos"></a>
+				<a href="https://twitter.com/LEC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.youtube.com/lec"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.twitch.tv/lec"><i class="fab fa-twitch"></i></a>
+				</div>
+
+			</li>
+
+			<li>
+				<span class="negrita rojo">League of Legends Pro League</span> <span class="negrita darkred">(LPL)</span>: La LPL es la liga profesional de LoL en China.  Los equipos chinos han tenido un éxito notable en torneos mundiales.
+
+				<div id="lpl_container" class="ligas_container">
+				<a href="https://en.wikipedia.org/wiki/League_of_Legends_Pro_League"><img src="IMG//logo_lpl.svg" alt="" class="ligas_logos"></a>
+				<a href="https://twitter.com/lplenglish?lang=es"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.youtube.com/channel/UCaFMdq6QrAAEx5k2cLlZNPA"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.twitch.tv/lpl"><i class="fab fa-twitch"></i></a>
+				</div>
+
+
+			</li>
+
+			<li>
+				<span class="negrita rojo">League of Legends Champions Korea</span> <span class="negrita darkred">(LCK)</span>: La LCK es la liga profesional de LoL en Corea del Sur, una de las regiones más dominantes en la historia de los deportes electrónicos de LoL. Los equipos coreanos han ganado múltiples Campeonatos Mundiales de LoL.
+				<div id="lck_container" class="ligas_container">
+				<a href="https://en.wikipedia.org/wiki/League_of_Legends_Champions_Korea"><img src="IMG//logo_lck.svg" alt="" class="liga_lck"></a>
+				<a href="https://twitter.com/LCK?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.youtube.com/channel/UCKVlixycWmapnGQ_wht4cHQ"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.twitch.tv/lck"><i class="fab fa-twitch"></i></a>
+				</div>
+			</li>
+
+			<li>
+				<span class="negrita rojo">Campeonato Mundial de League of Legends</span> (<span class="negrita darkred">Worlds</span>): Es la competición más prestigiosa dentro de todo el circuito d LoL eSports. Los mejores equipos de todas las regiones compiten por el título de campeón mundial. Worlds atrae a una enorme audiencia global   y supone  una gran bolsa de premios para los equipos que compiten.
+				<div id="lcs_container" class="ligas_container">
+				<a href="https://es.wikipedia.org/wiki/League_Championship_Series"><img src="IMG//Lol_logo.png" alt="" class="ligas_logos"></a>
+				<a href="https://twitter.com/lolesports?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.youtube.com/c/lolesports"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.twitch.tv/lolworldchampionship"><i class="fab fa-twitch"></i></a>
+				</div>
+
+			</li>
+
+			<li>
+				<span class="negrita rojo">Mid-Season Invitational</span> (<span class="negrita darkred">MSI</span>): MSI es un torneo internacional que se celebra en la mitad de la temporada y reúne a los campeones de diferentes regiones. Es una oportunidad para que los equipos demuestren su habilidad a nivel global.
+				<div id="lcs_container" class="ligas_container">
+				<a href="https://es.wikipedia.org/wiki/Campeonato_Mundial_de_League_of_Legendshttps://es.wikipedia.org/wiki/Mid-Season_Invitational"><img src="IMG//Lol_logo.png" alt="" class="ligas_logos"></a>
+				<a href="https://twitter.com/lolesports"></i></a>
+				<a href="https://www.youtube.com/@lolesports"><i class="fab fa-youtube"></i></a>
+				
+				</div>
+			</li>
+
+			<li>
+				<span class="negrita rojo">All-Star Event</span>: Este evento anual reúne a los jugadores más destacados de todo el mundo en una competición amistosa, al estilo de los All-Star de la NBA. Los fans votan por sus jugadores favoritos para formar equipos representativos de cada región.
+			
+			</li>
+
+			<li>	
+				<span class="negrita rojo">Ligas regionales</span>: Además de las ligas mencionadas, muchas otras regiones también tienen sus propias ligas profesionales, como la LMS en Taiwán y el Sudeste Asiático, la PCS en el Pacífico, y la liga española:
+				<div id="lcs_container" class="ligas_container">
+				<a href="https://es.wikipedia.org/wiki/League_Championship_Series"><img src="IMG//logo_lcs.png" alt="" class="ligas_logos"></a>
+				<a href="https://twitter.com/LCSOfficial"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.youtube.com/lcs"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.twitch.tv/lcs"><i class="fab fa-twitch"></i></a>
+				</div>
+
+			</li>
+
+	
+
+		</ul>
+
+		<p>Se realizan dos temporadas, la de invierno y la de verano, donde según tu clasificación en los “playoffs” obtienes puntos para el campeonato mundial. Al igual que la UEFA concede plazas para la “Liga de Campeones” en el fútbol dependiendo de la fuerza de la liga de una región, los organizadores del premio del Campeonato Mundial de LoL hacen exactamente lo mismo. Por ejemplo, la liga China dispone de cuatro puestos, mientras que Europa tres y las ligas menores como Brasil sólo una.</p>
+
+
+		<h4 class="h4_master">1.3.4 Retrasmisiones y streamers</h4>
+
+		<p>Riot Games, organiza retransmisiones oficiales de sus competiciones. Estas retransmisiones se realizan en múltiples idiomas y se pueden seguir en plataformas como Twitch y YouTube.  Sin embargo, gran parte de la popularidad de League of Legends se ha basado en las retransmisiones en vivo (streams) por locutores no profesionales conocidos por streamers</p>
+
+		<p>Entre algunos de los streamers más influyentes a nivel mundial se incluyen :</p>
+
+	
+		<ul>
+		
+			<li><span class="negrita">Tyler1 (Tyler Steinkamp)</span>: Conocido por su personalidad enérgica y su juego agresivo, Tyler1 es uno de los streamers más populares de LoL.</li>
+
+			<li><span class="negrita">Imaqtpie (Michael Santana)</span>: Antiguo jugador profesional que ahora se dedica al streaming. Es conocido por su sentido del humor y su estilo relajado.</li>
+
+			<li><span class="negrita">Yassuo (Moe Harada)</span>: Conocido por su habilidad en jugar con campeones de media y su interacción activa con los espectadores.</li>
+
+			<li><span class="negrita">Voyboy (Joedat Esfahani)</span>: Exjugador profesional que se ha centrado en el streaming y es respetado por su habilidad y experiencia en el juego.</li>
+
+			<li><span class="negrita">Nightblue3 (Rabia Yazbek)</span>: Es famoso por su contenido educativo y guías sobre cómo mejorar en LoL.</li>
+
+
+		</ul>
+
+
+		<p>En español, existen varios streamers con grandes audiencias, sin embargo, el más destacado y conocido es el de <span class="negrita"><a href="https://es.wikipedia.org/wiki/Ibai_Llanos">Ibai Llanos</a></span>, que precisamente se dio a conocer en 2014 por sus retrasmisiones de partidas de League of Legends para la <a href="https://es.wikipedia.org/wiki/Superliga_LVP">Superliga Española</a> y que rápidamente fue promovido para retransmitir la liga norteamericana  LCS. Retransmisiones donde posee records mundiales de audiencia por su canal de <a href="https://www.twitch.tv/ibai">Twitch</a>, en el que tiene 15 millones de suscriptores. Hoy en día, compagina sus retrasmisiones de esports  con otras  múltiples actividades:  es copropietario junto al ex-jugador de fútbol Gerard Piqué del equipo de esports <a href="https://es.wikipedia.org/wiki/KOI">KOI</a>, además de promover eventos de deportes alternativos seguidos por audiencias millonarias. </p> 
+
+		<p>Según la página <a href="https://www.dexerto.es/league-of-legends/top-10-streamers-en-espanol-de-league-of-legends-mas-vistos-en-twitch-1447783/">web Dexerto.es </a>, estos son los 5 streamers en español de eventos de League of Legends  con mayores audiencias en diciembre de 2022:</p>
+
+		<table>
+		
+			<tr>
+	            <th class="table_titulo">POSICIÓN</th>
+	            <th class="table_titulo">STREAMER</th>
+	            <th class="table_titulo">HORAS VISTAS</th>
+	            <th class="table_titulo">HORAS DE STREAMING</th>
+	            <th class="table_titulo">PICO DE ESPECTADORES</th>
+	            <th class="table_titulo">MEDIA DE ESPECTADORES</th>
+	        </tr>
+	        <tr>
+	            <td class = "col2 centrado">1</td>
+	            <td class = "col1 "><a href="https://www.twitch.tv/elmiillor">ElmiilloR</a></td>
+	            <td class = "col2 centrado">907.599</td>
+	            <td class = "col2 centrado">192</td>
+	            <td class = "col2 centrado">8.767</td>
+	            <td class = "col2 centrado">4.709</td>
+	        </tr>
+
+	        <tr>
+	            <td class = "col2 centrado">2</td>
+	            <td class = "col1 "><a href="https://www.twitch.tv/knekro">Knekro</a></td>
+	            <td class = "col2 centrado">420.494</td>
+	            <td class = "col2 centrado">57</td>
+	            <td class = "col2 centrado">11.273</td>
+	            <td class = "col2 centrado">7.313</td>
+	        </tr>
+
+	        <tr>
+	            <td class = "col2 centrado">3</td>
+	            <td class = "col1 "><a href="https://www.twitch.tv/Nissaxter">Nissaxter</a></td>
+	            <td class = "col2 centrado">405.560</td>
+	            <td class = "col2 centrado">100</td>
+	            <td class = "col2 centrado">7.861</td>
+	            <td class = "col2 centrado">4.045</td>
+	        </tr>
+
+	        <tr>
+	            <td class = "col2 centrado">4</td>
+	            <td class = "col1 "><a href="https://www.twitch.tv/werlyb">Werlyb</a></td>
+	            <td class = "col2 centrado">420.494</td>
+	            <td class = "col2 centrado">57</td>
+	            <td class = "col2 centrado">11.273</td>
+	            <td class = "col2 centrado">7.313</td>
+	        </tr>
+
+
+	        <tr>
+	            <td class = "col2 centrado">5</td>
+	            <td class = "col1 "><a href="</a>">BarbaKahn</a></td>
+	            <td class = "col2 centrado">143.874</td>
+	            <td class = "col2 centrado">20</td>
+	            <td class = "col2 centrado">10.332</td>
+	            <td class = "col2 centrado">10. 332</td>
+	        </tr>
+
+
+
+		</table>
+
+
+
+
+
+
+
+		<h3 class="h3_master">1.4 Bases del juego</h3>
+
+		<p><span class="negrita">Dos</span> conjuntos de <span class="negrita">cinco jugadores</span> cada uno, uno identificado por el color <span class="azul negrita">azul</span> y otro por el <span class="rojo negrita">rojo</span>, se enfrentan en un <span class="negrita">campo de batalla</span>. La mayor parte de la acción se desarrolla en <span class="underline">tres vías</span> designadas como “<span id="span_superior" class="underline negrita azul">superior</span>”. “<span id="span_central" class="underline negrita azul">central</span>” e “<span class="underline negrita azul">inferior</span>”, además de las bases respectivas. Cualquier área en el mapa que no esté ocupada por las vías o las bases se denomina jungla, donde los jugadores pueden encontrar monstruos neutrales  que al eleminarlos pueden obtener como recompensas oro y experiencia.</p>
+
+		<figure id="figure_tablero">
+			<div id="container_tablero">
+				<img src="IMG/plano_tablero.png" alt="" id="tablero">
+				<figcaption id="via_superior">Vía Superior </figcaption>
+				<figcaption id="via_central">Vía Central </figcaption>	
+				<figcaption id="via_inferior">Vía Inferior </figcaption>
+				<figcaption id="jungla1">Jungla </figcaption>	
+				<figcaption id="jungla2">Jungla </figcaption>
+
+			</div>
+			
+			<figcaption>Campo de batalla donde se desarrollan las partidas</figcaption>
+			
+		</figure>
+
+		<p>Los jugadores eligen lo se se denominan “<span class="negrita">campeones</span>”,  avatares que poseen distitans habilidades tanto en ataque como en defensa.  Antes de comenzar la partida, el equipo rival "banea" la elección de 5 campeones y el equipo contrario tiene que elegir entre los que quedan seleccionables.</p>
+
+		<p>Existen más de 130 <span class="negrita">Campeones</span> disponibles . Cada uno cuenta con cuatro habilidades únicas.  Cada una de ellas tiene una  tecla asignada (Q, W, E o R). La cuarta habilidad (R) recibe el nombre de “Ultimate” o “Definitiva”, es la más importante y potente y la que más tiempo requiere para ser utilizada.</p>
+
+		<div class ="carrusel">
+			<ol class="carrusel_viewport">
+				<li class="carrusel_slide">
+					<div class="carrusel_snapper" style="background: url('IMG//campeones//milio.jpeg')"></div>
+				</li>
+				<!-- <li class="carrusel_slide">
+					<div class="carrusel_snapper" style="background: url('IMG//campeones//milio.jpeg')"></div>
+				</li>
+				<li class="carrusel_slide">
+					<div class="carrusel_snapper" style="background: url('IMG//campeones//milio.jpeg')"></div>
+				</li>
+				<li class="carrusel_slide">
+					<div class="carrusel_snapper" style="background: url('IMG//campeones//milio.jpeg')"></div>
+				</li>
+				<li class="carrusel_slide">
+					<div class="carrusel_snapper" style="background: url('IMG//campeones//milio.jpeg')"></div>
+				</li>
+				<li class="carrusel_slide">
+					<div class="carrusel_snapper" style="background: url('IMG//campeones//milio.jpeg')"></div>
+				</li>
+				<li class="carrusel_slide">
+					<div class="carrusel_snapper" style="background: url('IMG//campeones//milio.jpeg')"></div>
+				</li>
+				<li class="carrusel_slide">
+					<div class="carrusel_snapper" style="background: url('IMG//campeones//milio.jpeg')"></div>
+				</li>
+				<li class="carrusel_slide">
+					<div class="carrusel_snapper" style="background: url('IMG//campeones//milio.jpeg')"></div>
+				</li>
+				<li class="carrusel_slide">
+					<div class="carrusel_snapper" style="background: url('IMG//campeones//milio.jpeg')"></div>
+				</li> -->
+			</ol>
+			
+
+		</div> 
+
+		<p> Durante la partida, los jugadores pueden mejorar las habilidades del campeón que han seleccionado mediante compras que realizan en la base con el oro  que han ido acumulando durante la partida, las compras son objetos que mejoran sus habilidades mágicas y aumentar su potencial de defensa y daño. Paralelamente, ganar experiencia ayuda a los jugadores a subir de nivel. Además de los campeones cada equipo cuenta con una horda de “<span class="negrita">esbirros</span>” (minions) controlados por el juego para ayudar a derribar la base enemiga.</p>
+
+		<p>El equipo que logra destruir primero una estructura conocida como el “<span class="negrita">Nexo</span>”, ubicada en la parte trasera de la base del enemigo, se alza como vencedor. A pesar de la sencilla apariencia que posee, se puede afirmar que la realidad es mucho más compleja. Mientras al menos uno de los tres “Inhibidores” o alguna de las torretas en la base, permanezca en pie, el Nexo no podrá ser atacado.</p>
+
+		<p>Las <span class="negrita">Torretas</span> desempeñan un papel crucial en el juego, infringiendo daño a los enemigos y permitiendo que un equipo tenga un mayor control del campo de batalla. Frecuentemente, los equipos recurren a los esbirros, que son generados automáticamente por el Nexo y no está bajo el control directo de los jugadores, para ayudar a derribar algunas torretas.</p>
+
+		
+
+		<h4 class="h4_master">1.3.2 Modos de juego</h4>
+
+		<p>Con el fin de preservar la popularidad del videojuego, suelen incorporarse distintos modos de juego. Estos modos pueden estar disponibles por un periodo limitado de tiempo o en dependencia de su éxito terminar siendo una parte establecida del mismo.</p>
+
+		<p>En la actualidad, se mantienen como modos permanentes el <span class="negrita">Clásico</span>, el <span class="negrita">Dominon</span> y el <span class="negrita">ARAM</span> (All Random un Mid). De manera reciente se ha incorporado el modo <span class="negrita">TeamFight Tactics</span>. Por otro lado, eventos como Snowdown, IRF (Ultra Rapid Fire) y ARUF (All Random Ultra Rapid Fira) son ejemplos de modos que han estado temporalmente disponibles.</p>
+
+		<p>A continuación, se explican algunos de los distintos modos de juego :</p>
+
+		
+    	<table >
+	        <tr>
+	            <th class="table_titulo">MODO</th>
+	            <th class="table_titulo">DESCRIPCIÓN</th>
+	        </tr>
+	        <tr>
+	            <td class = "col1">Clásico</td>
+	            <td class = "col2 impar">Es el modo original de League of Legends, se centra en destruir el Nexo enemigo. Hay dos mapas disponibles <span class="azul">“La Grieta del Invocador”</span> y el <span class="azul">“Bosque Retorcido”</span>, cada uno con diferente cantidad de jugadores. Es necesario derribar las torretas e inhibidores que protegen los <span class="negrita">Nexos</span> enemigos.</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">Dominion</td>
+	            <td class = "col2 par">En este modo dos equipos de cinco jugadores compiten en el mapa <span class="azul">“La Cicatriz de Cristal”</span>. En lugar de destruir los <span class="negrita">Nexos</span>, deben controlarlos durante cierto tiempo. Esto incrementa los puntos de captura propios y reduce los del equipo contrario. También conocido como el modo “defender y destruir”.</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1"> 
+	            	ARAM
+	            	<span class="minuscula">(All Random All Mid)</span>
+	            </td>
+	            <td class = "col2 impar">Modo de juego 5 vs 5 (5v5) que se juega en el  mapa especial llamado <span class="azul">"El Abismo de los Lamentos" (Howling Abyss)</span>. Todo aleatorio (all random): los jugadores recien un campeón de forma aleatoria. All mid: los dos equipos luchan en la línea central. Es un modo de juego más relajado y caótico . El objetivo principal sigue siendo destruir el Nexo enemigo, pero ARAM se juega generalmente de una manera más divertida y menos estratégica .</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">Snowdown </td>
+	            <td class = "col2 par">Formato <span class="negrita">temporal</span>. Está basado en el formato <span class="negrita">Battle Royale</span>, donde todos luchan entre sí y el último jugador en pie gana.</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">URF <span class="minuscula">(Ultra Rapid Fire)</span>   </td>
+	            <td class = "col2 impar">Formato <span class="negrita">temporal</span>. En este modo, los costos de maná y energía se eliminan por completo. Los tiempos de enfriamiento de habilidades se reducen significativamente, al igual que la duración de los hechizos de invocador.</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">ARUF <span class="minuscula">(All Random Ultra Rapid)</span> </td>
+	            <td class = "col2 par">Formato <span class="negrita">temporal</span>. Una combinación de <span class="negrita">URF</span> y <span class="negrita">ARAM</span>. La selección de campeones es similar a ARAM, pero las mecánicas de juego siguen las reglas de URF.</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">TFT <span class="minuscula">(Teamfight Tactics)</span>  </td>
+	            <td class = "col2 impar">Formato <span class="negrita">temporal</span>. Se trata de un juego “todos contra todos” basado en el reclutamiento, con partidas de hasta ocho jugadores. Los participantes reclutan campeones poderosos, los despliegan en el tablero y luchan por ser el último en pie.</td>
+	        </tr>
+    	</table>
+
+    	<p>De entre todos los vistos con anterioridad el más popular es el clásico en el escenario de la “<span class="azul">Grieta del Invocador</span>”. Es el escenario más frecuentado debido a que es considerado el estándar del juego competitivo y el único donde se pueden jugar partidas clasificatorias, en las que el resultado afecta a la puntuación en las ligas.</p>
+
+    	<h4 class="h4_master">1.3.3 Roles</h4>
+
+
+    	<table  >
+	        <tr>
+	            <th class="table_titulo">ROL</th>
+	            <th class="table_titulo">DESCRIPCIÓN</th>
+	        </tr>
+	        <tr>
+	            <td class = "col1">Top </td>
+	            <td class = "col2 impar">
+
+	            El jugador en esta posición se enfrena en el carril superior del mapa, aunque no significa que tenga que permanecer en este lugar durante toda la partida.  
+
+	            El <span class="negrita">Toplaner</span> generalmente opta por campeones resistentes capaces de aguantar bien los golpes enemigos. Sin embargo, también se pueden encontrar “Duelistas”, “Asesinos” y “Magos”. Por lo general, los campeones de top se destacan por liderar el ataque del equipo.
+
+
+	           </td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">Jungla </td>
+	            <td class = "col2 par">
+	             La jungla se encuentra entre las tres calles y alberga monstruos neutrales. Al derrotarlos, otorgan oro, experiencia y a veces mejoras o “buffs temporales” que brindan asistencia. 
+			 
+
+	             El <span class="negrita">Jungler</span> ejerce presión en todo el mapa, desplazándose constantemente, siendo el motor del juego. Los campeones de la jungla son diversosdeben de tener la capacidad de emboscar a los enemigos para crear ventajas numéricas en áreas específicas. 
+	            </td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">Medio</td>
+	            <td class = "col2 impar">
+	            En esta calle se encuentran campeones capaces de infligir grandes cantidades de daño, generalmente a distancia. Es el dominio de “Magos” y “Asesinos”. Al igual que en el carril superior, se trata de un enfrentamiento uno contra uno, con las torretas de fondo.
+	            Este rol es altamente técnico, donde la ubicación, reflejos y decisiones rápidas son vitales. Dado que se sitúa en el centro del mapa, también puede moverse con facilidad y tener influencia en otras áreas.	
+	            </td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">Tirador</td>
+	            <td class = "col2 par">
+	            El <span class="negrita">Tirador</span> también denominado <span class="negrita">AD Carry</span> o <span class="negrita">ADC</span>, es un pilar fundamental en el juego. Su tarea es infligir daño constante a distancia durante los combates. Sin embargo, sus defensas son mínimas y es vulnerable, por lo que el equipo deberá de protegerlo en todo momento.
+	            Es un rol sumamente técnico y suele ser muy útiles en las etapas avanzadas.
+	            </td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">Apoyo</td>
+	            <td class = "col2 impar">
+	            El <span class="negrita">Apoyo</span> ayuda al equipo tanto en la defensa como en la ofensiva, aunque su daño directo a los enemigos es limitado. Su función implica ralentizar, aturdir, curar y más.
+	            Este campeón debe contribuir al ataque, a veces liderando las ofensivas, y la defensa, rescatando a los aliados en situaciones difíciles. Actúa como el principal protector del <span class="negrita">Tirador</span>.
+	            Sus tareas incluyen explorar zonas del mapa para garantizar la seguridad mediante “Guardianes de Visión”. Junto al <span class="negrita">Tirador</span>, forman la <span class="negrita">Calle Inferior</span>, también denominada <span class="negrita">Bot Lane</span>.
+	            </td>
+	       
+    	</table>
+
+    	<p>Cabe comentar que cuando uno de los personajes es aniquilado, los jugadores deben de esperar cierto tiempo a que su avatar vuelva a entrar en juego, reapareciendo por detrás de su Nexo base, lo que aumenta las posibilidades de que un enemigo destruya un a base o controle un carril. </p>
+
+    	<h4 class="h4_master">1.3.4 Niveles, Puntos de Liga y MMR</h4>
+
+		<p>En el juego League of Legends, MMR significa "Matchmaking Rating" (en español, "Puntuación de Emparejamiento"). Es un sistema de clasificación oculto que se utiliza para determinar qué jugadores se enfrentarán en las partidas clasificatorias y normales. El MMR se basa en el rendimiento de un jugador en sus partidas anteriores. A medida que un jugador gana o pierde partidas, su MMR se ajusta en consecuencia.</p>
+
+		<p><span class="underline">MMR vs Niveles</span></p>
+
+		<p>Si  el MMR refleja el nivel general de habilidad del jugador, los niveles actúan como una representación fluida de su posición actual en relación con ese potencial. Esto resulta útil para entender su posición en la clasificación en comparación con otor jugadores y, además, brinda un sistema de progresión con niveles y divisiones significativos.</p>
+
+		<p>Aunque la relación entre el MMR y el nivel de un jugador pueda ser confidencial, los resultados se hacen visibles a través de otro sistema conocido por los jugadores de partidas clasificatorias: los “puntos de liga” también conocidos como (PL).</p>
+
+		<p>Los puntos de liga son el componente que facilitará la transición entre niveles. Se otorgarán PL por cada victoria y se te restarán por cada derrota. Por lo general, necesitarás acumular 100 PL para avanzar entre divisiones, aunque hay otra normativa que impactan en el avance, en las que habría que entrar más en detalle como pueden ser la continuidad de días jugados u otros aspectos en función de la división en la que se encuentra el jugador.</p>
+
+		<h4 class="h4_master">1.3.5 Categorías (Ligas)</h4>
+
+		<p>Cuando un jugador de League of Legend alcanza el nivel treinta puede jugar partidas clasificatorias pasando a las categorías profesionales que se listan a continuación, denominadas ligas:</p>
+
+
+		<table border="1">
+	        <tr>
+	            <th class="table_titulo">LIGAS</th>
+	            <th class="table_titulo">DESCRIPCIÓN</th>
+	        </tr>
+	        <tr>
+	            <td class = "col1">Hierro</td>
+	            <td class = "col2 impar">
+
+	            Se trata de la primera Liga competitiva, cuenta con 5 divisiones y el nivel de los jugadores es relativamente bajo, quienes no dominan las mecánicas básicas de League of Legends acaban aquí. Popularmente se conoce como “el pozo”. 
+
+
+
+	           </td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">Bronce </td>
+	            <td class = "col2 par">
+	            Se trata de una de las ligas más pobladas de League of Legends. Cuenta con 5 divisiones y el nivel sigue siendo bajo, aunque ya se ven ciertas mecánicas individuales y en equipo, sobre todo en las divisiones más altas.
+
+			
+	            </td>
+	        </tr>
+
+	          <tr>
+	            <td class = "col1">Plata</td>
+	            <td class = "col2 impar">
+	            Aquí se encuentran la mayoría de los jugadores de partidas clasificatorias. Al tener mayor conocimiento del juego las partidas muestran mejores jugadas y dinámicas de equipo.
+
+			
+	            </td>
+	        </tr>
+
+	       	 <tr>
+	            <td class = "col1">Oro</td>
+	            <td class = "col2 par">
+	            Se trata de una buena medida de habilidad conocimiento y destreza del jugador. La inclusión de recompensas al fina de la temporada es un gran incentivo para todos los jugadores a nivel mundial.
+
+			
+	            </td>
+	        </tr>
+			<tr>
+	            <td class = "col1">Platino</td>
+	            <td class = "col2 impar">
+	            Es una liga que se encuentra en un punto intermedio del sistema de clasificación, lo que sugiere que lo s jugadores que la integran han demostrado un nivel de habilidad y comprensión del juego por encima del promedio.
+
+			
+	            </td>
+	        </tr>
+
+			<tr>
+	            <td class = "col1">Esmeralda</td>
+	            <td class = "col2 par">
+	            Ya nos acercamos al máximo nivel de jugador, esta liga se considera semiprofesional. Las recompensas siguen incrementándose al final de temporada.
+
+			
+	            </td>
+	        </tr>
+
+
+			<tr>
+	            <td class = "col1">Diamante</td>
+	            <td class = "col2 impar">
+	            Todos sus jugadores conocen ampliamente el juego, habiendo jugado en todos sus modos y con la mayoría de los campeones, poderes y combos disponibles. Se trata además de la última Liga sin límite de jugadores en esta se forjan los jugadores profesionales.
+
+			
+	            </td>
+	        </tr>
+
+	       <tr>
+	            <td class = "col1">Maestro y Gran Maestro</td>
+	            <td class = "col2 par">
+	            Incluye a muchos jugadores top del mundo, tiene cupo limitado de competidores y el nivel es profesional. La competición se vuelve más difícil y sólo los mejores se mantienen en esta Liga.
+
+			
+	            </td>
+	        </tr>
+
+	        <tr>
+	            <td class = "col1">Retador</td>
+	            <td class = "col2 impar">
+	            La máxima aspiración que cuenta con 300 espacios para competidores. El nivel individual se combina con las habilidades de equipo para dar lugar a partidas vibrantes y emocionantes. Las recompensas tienen color diferente al de las Ligas inferiores.
+
+			
+	            </td>
+	        </tr>
+
+
+
+	     </table>
+
+	     <p>Los niveles de Hierro a Diamante cuentan con cuatro divisiones cada uno. Es necesario completar una división para alcanzar la siguiente. Es decir, por ejemplo, si te encuentra en Plata III debes ascender a través de Plata II y Plata I antes de llegar a Oro IV.</p>
+
+
+	     <p>Si sufres la desgracia de descender un nivel empezarás por la división más alta del nivel inmediato inferior.</p>
+
+
+	     <p>El sistema de ascenso cuenta con una importante variedad de excepciones y es mucho más complejo de lo que parece, teniendo que ser cada caso analizado específicamente.</p>	
+	</article>
+
+	<div id="planteamiento" class="espaciado"></div>
+	
+	<article id="planteamiento-content">
+		<h2 class="h2_master" >2. Planteamiento oportunidad</h2>
+
+		<p>
+			Dado que los E-Sports es un sector en plena expansión, con muchísimo poetencial dentro de las ligas de competiciones europeas y  también de habla hispana, encontramos que se abre una oportunidad de negocio claro que reproduzca las mismas estrategias "data-driven" que se han implantado en los deportes tradicionales y que tan excelente resultado están dando.
+		</p>
+
+		<p>
+			Nuestra idea de negocio es proveer esos servicios de analítica y predicción basados en técnicas y herramientas de Big Data y Business Analytics junto con desarrollos de modelos Machine Learning que permita realizar predicciones acerca de jugadores, resultados o estrategias.
+		</p>
+
+		<p>Estos servicios podrían ofrecer las siguientes herramientas:</p>
+
+		<ol>
+
+		<li><span class="negrita underline">Optimización </span>del rendimiento de jugadores y equipos a través del análisis de datos y toma de decisiones informada</li>
+
+		<li><span class="negrita underline">Identificación</span> de fortalezas y debilidades para guiar el desarrollo y entrenamiento de los jugadores</li>
+
+		<li>Generación de <span class="negrita underline">insights</span> y recomendaciones personalizadas para la toma de decisiones estratégica y táctica</li>
+
+		<li>Mejora de <span class="negrita underline">estrategia</span> de juego y asignación eficiente de recursos</li>
+
+		<li>Producción de <span class="negrita underline">datos</span> adicionales de probabilidad que permitan una mejor definición del precio de la apuesta para las casas de apuesta</li>
+
+		<li><span class="negrita underline">Identificación</span> de los jugadores óptimos en el mercado de fichajes en función de las necesidades del equipo</li>
+
+	</ol>
+
+
+
+
+
+
+		<h3 class="h3_master">2.1 Metodología Lean Startup</h3>
+			<p>La metodología <span class="negrita">Lean Startup</span>, desarrollada por <span class="underline">Eric Ries</span>, se centra en la creación y gestión de empresas de manera eficiente y efectiva, especialmente en entornos de incertidumbre. Los pasos a tomar e ideas esenciales  en la metodología Lean Startup son las siguientes:</p>
+
+		<ol>
+			<li><span class="negrita">Desarrollar una Idea</span>: Comienza por tener una idea clara de tu producto o servicio. Esto puede ser una solución a un problema o una oportunidad de mercado que hayas identificado.</li>
+
+			<li><span class="negrita">Crear un MVP (Producto Mínimo Viable)</span>: En lugar de invertir una gran cantidad de tiempo y recursos en el desarrollo completo de tu producto, crea un MVP. Este es un producto básico con las características esenciales que te permiten probar tu idea en el mercado lo más rápido posible.</li>
+
+			<li><span class="negrita">Medir y Aprender</span>: Lanza tu MVP en el mercado y comienza a recopilar datos y retroalimentación de los usuarios. Esto implica el monitoreo de métricas clave para comprender cómo los usuarios interactúan con tu producto y qué problemas pueden encontrar.</li>
+
+			<li><span class="negrita">Pivotar o Perseverar</span>: Basándote en los datos y la retroalimentación recopilados, toma decisiones informadas. Si los resultados indican que tu idea inicial no es viable, considera un "pivote", que implica ajustar tu producto o estrategia en función de lo que hayas aprendido. Si los resultados son positivos, continúa y mejora tu producto.</li>
+
+			<li><span class="negrita">Construir-Medir-Aprender Continuo</span>: Este ciclo de crear, medir y aprender es continuo. Debes iterar y mejorar constantemente tu producto en función de la retroalimentación del mercado.</li>
+
+			<li><span class="negrita">Enfocarse en la Métrica de Acción Más Importante (One Metric That Matters - OMTM)</span>: Identifica una métrica clave que sea fundamental para el éxito de tu startup y enfócate en mejorar esa métrica.</li>
+
+			<li><span class="negrita">Construir una Comunidad de Usuarios</span>: A medida que continúas mejorando tu producto, trabaja en construir una comunidad de usuarios leales. Esto puede ayudarte a obtener retroalimentación constante y a crear una base de clientes sólida.</li>
+
+			<li><span class="negrita">Modelo de Negocio Sostenible</span>: A medida que avanzas, trabaja en construir un modelo de negocio sostenible. Esto implica encontrar formas de generar ingresos y garantizar que tu startup sea financieramente viable.</li>
+
+			<li><span class="negrita">Escalabilidad</span>: Una vez que hayas validado tu idea y tengas un modelo de negocio sólido, puedes comenzar a pensar en la escalabilidad y el crecimiento a gran escala.</li>
+
+			<li><span class="negrita">Gestión de Recursos</span>: Administra tus recursos de manera eficiente. Enfoca tus inversiones en áreas que generen el mayor impacto y aprende a priorizar.</li>
+
+			<li><span class="negrita">Cultura de Experimentación</span>: Fomenta una cultura de experimentación en tu equipo, donde el aprendizaje continuo y la adaptación sean fundamentales.</li>
+
+			<li><span class="negrita">Iteración Constante</span>: Nunca dejes de iterar y mejorar. La metodología Lean Startup se trata de la adaptación constante a medida que evoluciona tu empresa y se enfrenta a nuevos desafíos.</li>
+
+			</ol>
+			<p>Estos son los pasos esenciales en la metodología Lean Startup. La clave es mantener un enfoque en la validación de ideas y la adaptación constante en función de los datos y la retroalimentación del mercado.<p>
+	
+	</article>
+
+	<div id="invest" class="espaciado"></div>
+
+	<article id="invest_content">
+		
+		<h2 class="h2_master" >3. Investigación y toma de datos</h2>
+		<h3 class="h3_master">3.1 Hipótesis realizadas</h3>
+		<p>En la metodología Lean Startup para el diseño y desarrollo de un negocio, es fundamental plantearse una serie de hipótesis sobre dicho posible negocio y validarlas para confirmar de la viabilidad del proyecto y anticiparse a posibles contratiempos que lo pudieran malograr o incluso detectar impedimentos de forma que nos ahorren posibles inversiones fallidas.  Las hipótesis a validar que nos hemos planteado han sido las siguientes: 
+		</p>
+
+
+		<table border="1">
+	        <tr>
+	            <th class="table_titulo" colspan="2">Hipótesis del Problema</th>
+	            
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 1</td>
+	            <td class = "col2 impar">
+
+	            Actualmente no existe una solución que proporcione pronósticos precisos del resultado de un partido de League of Legends basados en un algoritmo de predicción confiable.
+
+
+
+	           </td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 2 </td>
+	            <td class = "col2 par">
+	            Actualmente no existe una herramienta personalizable que permita comparar estadísticas de equipos, jugadores, ligas, campeones, etc.
+
+			
+	            </td>
+	        </tr>
+
+	          <tr>
+	            <td class = "col1">HIP. 3</td>
+	            <td class = "col2 impar">
+	            La carencia de acceso a dichas herramientas dificulta la toma de decisiones estratégicas informadas.
+			
+	            </td>
+	        </tr> 
+	        
+	         <tr>	
+	        	<th class="table_titulo" colspan="2">Hipótesis de la Solución</th>
+	       	
+	            
+			
+	             
+	        </tr>
+			<tr>
+	            <td class = "col1">HIP. 4</td>
+	            <td class = "col2 impar">
+	            Utilizando la API oficial de Riot Games como fuente de datos, podremos obtener información actualizada y precisa sobre el rendimiento de campeones, jugadores y equipos competitivos.
+
+			
+	            </td>
+	        </tr>
+
+			<tr>
+	            <td class = "col1">HIP. 5</td>
+	            <td class = "col2 par">
+	            Utilizando web scraping u otras técnicas podremos obtener información actualizada y precisa sobre el rendimiento de campeones, jugadores y equipos competitivos.
+
+			
+	            </td>
+	        </tr>
+
+
+			<tr>
+	            <td class = "col1">HIP. 6</td>
+	            <td class = "col2 impar">
+	            Implementando modelos de predicción basados en algoritmos, seremos capaces de proporcionar a los usuarios herramientas de predicción precisas y confiables tanto antes de que comience un partido como después de que se hayan seleccionado los campeones.
+
+			
+	            </td>
+	        </tr>
+
+	        <tr>	
+	        	<th class="table_titulo" colspan="2">Hipótesis de Segmento Cliente</th>
+	       	
+	            
+			
+	             
+	        </tr>
+
+
+
+
+
+	       <tr>
+	            <td class = "col1">HIP. 7</td>
+	            <td class = "col2 par">
+	            Al menos el 20% de los equipos competitivos de League of Legends estarán dispuestos a invertir en un modelo de predicción de resultados de partidos.
+
+			
+	            </td>
+	        </tr>
+
+	        <tr>
+	            <td class = "col1">HIP. 8</td>
+	            <td class = "col2 impar">
+	            Al menos el 20% de los streamers de League of Legends estarán interesados en utilizar una página web de estadísticas para enriquecer sus comentarios durante las transmisiones de partidas.
+
+			
+	            </td>
+	        </tr>
+
+	        <tr>
+	            <td class = "col1">HIP. 9</td>
+	            <td class = "col2 impar">
+	            Al menos el 5% de los usuarios de League of Legends estarán dispuestos a pagar por una suscripción que les brinde acceso exclusivo a estadísticas y predicciones relacionadas con el juego.
+	            </td>
+	        </tr>
+	        <tr>	
+	        	<th class="table_titulo" colspan="2">Hipótesis del Mercado</th>
+	       	</tr>
+	        <tr>
+	            <td class = "col1">HIP. 10</td>
+	            <td class = "col2 impar">
+	            Creemos que existe una creciente demanda de servicios de analítica relacionados con League of Legends.
+	            </td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 11</td>
+	            <td class = "col2 impar">
+	            Creemos que existe una creciente demanda de servicios de predicción relacionados con League of Legends.
+	            </td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 12</td>
+	            <td class = "col2 impar">
+	            Una solución similar podría aplicarse a otros eSports como CounterStrike, Valorant o Dota2.
+	            </td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 13</td>
+	            <td class = "col2 impar">
+	            Creemos que, al ofrecer un modelo de predicción en tiempo real basado en la selección de campeones, podremos captar a al menos el 15% de los streamers y comentaristas de partidas de League of Legends como clientes potenciales.
+	            </td>
+	        </tr>
+	         
+	        <tr>	
+	        	<th class="table_titulo" colspan="2">Hipótesis de Precio</th>
+	       	</tr>
+	        <tr>
+	            <td class = "col1">HIP. 14</td>
+	            <td class = "col2 impar">
+	            Los usuarios estarán dispuestos a pagar una tarifa mensual de aproximadamente $5 a $12 para acceder a todas las funcionalidades y datos disponibles, dependiendo de los distintos niveles de suscripción (sólo analítica o analítica y predicción).
+	            </td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 15</td>
+	            <td class = "col2 impar">
+	            Ofreciendo una suscripción anual con un descuento podría atraer a los usuarios más comprometidos.
+	            </td>
+	        </tr>
+	        <tr>	
+	        	<th class="table_titulo" colspan="2">Hipótesis de Venta</th>
+	       	</tr>
+	        <tr>
+	            <td class = "col1">HIP. 16</td>
+	            <td class = "col2 impar">
+	            Considerando la oferta de webs de análisis disponible, creemos que al ofrecer los modelos de predicción aumentaría en un 70% el interés por visitar la página.
+	            </td>
+	        </tr>
+	        
+	     </table>
+		<h3 class="h3_master">3.2 Estrategia de investigación y toma de datos</h3>
+		<p>Para la validación de las hipótesis planteadas se han establecido tres líneas metodológicas para la toma de datos necesarios para dicho fin:	
+		</p>
+
+		<p><span class="underline"><span class="negrita azul">Vía 1</span>. Validación por <span class="negrita">investigación</span>.</span></p>
+
+		<p>Se han desarrollado labores de estudio, análisis y documentación con objeto de validar principalmente las hipótesis relacionadas solución propuesta y mercado. Entre otras acciones dentro de estos trabajos, destacamos:</p>
+
+		<ul>
+			<li>
+			Análisis de Datos de la <span class="negrita">API de Riot</span> y documentación ofrecida para desarrolladores: 
+			<br>
+			Trabajos destinados a verificar la viabilidad de la solución en cuanto a posibilidad de disponer de datos oficiales suministrados por Riot para poder construir nuestros servicios de análisis comparativo y predictivo, estudio de forma de acceso, datos oficiales ofrecidos, condiciones técnicas y legales establecidas por la empresa Riot para su acceso, etc.
+
+			</li>
+			<li>
+				 Análisis de <span class="negrita">datos extraoficiales</span>: 
+				 <br>
+				Se han localizado dentro de la extensa comunidad de League of Legend servicios extraoficiales de datos de partidas tanto pasadas como en vivo. Se han estudiado la viabilidad de acceso a esos datos, el grado de fiabilidad en la disponibilidad de los datos, la calidad de los datos accesibles y la oportunidad que brindan para ofrecer servicios de análisis diferenciadores frente a otras empresas que sen posible competencia.    
+			</li>
+			<li>
+				 Investigación de <span class="negrita">competencia</span>: 
+				 <br>
+				Análisis exhaustivo de las soluciones existentes en el mercado que ofrecen servicios similares de análisis y predicción en e-sports a la idea de negocio planteada; comparando características, funcionalidades, precios y sus modelos de negocio frente a la idea que se pretende desarrollar e identificando posibles vacíos u oportunidades que podríamos establecer de manera única en el mercado
+			</li>
+			<li>
+				Estudio de <span class="negrita">mercado y tendencias</span>.  
+				<br>
+				Parcialmente con relación al punto anterior, se desarrolla una investigación de la evolución del mercado en general de los E-sports, identificando los mercados más atractivos, los de mayor potencial, la tendencia de crecimiento o decrecimiento de los principales E-Sport en cuanto a volumen de jugadores y espectadores; tendencias en la demanda de servicios de analítica, predicción... etc.
+			</li>
+
+
+		</ul>
+		<p>En el anexo 1 se incluye la documentación relevante recopilada relativa a estos trabajos.</p>
+
+		<p><span class="underline"><span class="negrita azul">Vía 2</span>: Validación por <span class="negrita">entrevistas</span> y correos directos a personas <span class="negrita">claves</span> dentro del sector E-Sports. </span></p>
+
+		<p>Son labores destinadas a extraer información de personas o empresas que se han identificado como claves dentro del sector.  La intención es validar las hipótesis relacionadas con la idea principal inicial de negocio planteada en el anteproyecto, que se basaba en servicios ofrecidos a equipos de ligas competitivas y profesionales relacionados con el sector (como streamers) o empresas de apuestas deportivas, que a priori, se identifican como clientes con más potencial de negocio y como posibles mayores fuentes de ingreso.   </p>
+		<p>Como personas o entidades claves dentro del sector de los E-sport se han identificado personal directivo de equipos profesionales en liga española de LOL y ligas internacionales, streamers con mayor repercusión y departamentos dentro de la empresa Riot a los que se le ha enviado correos solicitando poder entrevistarnos y realizando unas primeras preguntas para obtención de los datos necesarios para validar nuestras hipótesis.</p>
+
+		<p><span class="underline negrita">Equipos contactados</span>: Bisons Club, Movistar Riders, Los Heretics, BarÇa eSports, Giants, Finetwork KOI, Rebels Gaming, UCAM Tokiers, Fnatic TQ, Guasones, Misfits Gaming, Schalke 04, SK Gaming, Team Vitality, Astralis, Cloud9, Team Liquid, Dignitas, Gen.G, Golden Guardians, MAD Lions, Immortals, FlyQuest, NRG, T1, Good Game Group, G2 Esports, Team Queso, MIV Gaming, DreamMakers Esports, Dango Esports.</p>
+
+		<P><span class= "underline negrita">Streamers contactados</span>: Shelao, Send0o, JimRsNg, CrystalMolly, Grafo, Elyoyalol, Nissaxter, LauritaChicle, X9nium, Evoreth_.</P>
+
+		<P>Sin embargo, este método no resultó fructífero. Únicamente dos equipos profesionales contestaron nuestra solicitud, indicando que no disponían de presupuesto para colaborar en la investigación. Ni Riot Games ni ninguno de los streamers llegó a contestar a nuestra solicitud.</P>
+
+		
+		<p>En el <span class="negrita">anexo 2</span>, se adjuntan los correos enviados, así como la encuesta realizada a los streamers.</p>	
+
+		<p><span class="underline"><span class="negrita azul">Vía 3</span>: Validación por <span class="negrita">encuesta a público general</span>.</p>
+
+		<p>Se diseñó una encuesta destinada a tomar los datos necesarios para validar las hipótesis relacionadas con la otra vía de ingresos del negocio de analítica y predicción que es el público general no competitivo: personas que juegan al videojuego League of Legends simplemente por fines lúdicos, o forman el público general que consume las retransmisiones de los partidos de ligas competitivas y además pueden llegar a realiza apuestas sobre estas competiciones. En parte, sus respuestas también pueden servir para orientar el negocio ofrecido a equipos profesionales y validar hipótesis de mercado y solución.</p>
+
+		<p>Se utilizó un formulario en <span class="negrita">Google Forms</span> que se compartió en distintos foros y comunidades en línea relacionados con la temática. Si bien es cierto que el número total de respuestas no representan una muestra significativa frente al gran número de jugadores de League of Legends, sí proporcionan una primera aproximación y valiosa retroalimentación directa de la comunidad interesada. Es importante señalar que permitieron confirmar algunas de las hipótesis iniciales y refutar otras</p>
+
+		<p>En el <span class="negrita">anexo 3</span>, se adjunta la encuesta confeccionada, las respuestas obtenidas y unas gráficas mediante <span class="negrita">PowerBI</span> analizando dichas respuestas.</p>
+
+
+		<h3 class="h3_master">3.3 Resultados de la validación</h3>
+	
+				<table id="resultado_validaciones">
+	        <tr>
+	            <th class="table_titulo" colspan="2">Hipótesis del Problema</th>
+	            <th class="table_titulo" colspan="1">Vía de validación</th>
+	            <th class="table_titulo" colspan="1">Resultado</th>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 1</td>
+	            <td class = "col2 ">
+	           No existencia de solución basada en algoritmos de predicción confiable.
+	           </td>
+	            <td class = "col3 ">
+	           Vía 1: Investigación
+	           </td>
+	           <td class = "col4">
+	           Se confirma que no se ha encontrado ninguna solución similar. 
+	           </td>
+
+
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 2 </td>
+	            <td class = "col2  ">
+	            No existencia herramienta descriptiva personalizable. 
+		        </td>
+		         <td class = "col3">
+	           	Vía 1: Investigación
+	           	</td>
+	           	<td class = "col4">
+	           	Se confirma que no se ha encontrado ninguna solución similar. 
+	           	</td>
+	        </tr>
+
+	          <tr>
+	            <td class = "col1">HIP. 3</td>
+	            <td class = "col2  ">
+	            Dificultad toma decisiones por carencia de herramientas. 
+	            </td>
+	            <td class = "col3 ">
+	           	Vías 2 y 3: Entrevistas y encuesta.
+	           	</td>
+	           	<td class = "col4">
+	           	49% confirma mejoraría su toma de decisiones. 
+	           	</td>
+	        </tr> 
+	        
+	         <tr>	
+	        	<th class="table_titulo" colspan="2">Hipótesis de la Solución</th>
+	        	<th class="table_titulo" colspan="1">Vía de validación</th>
+	            <th class="table_titulo" colspan="1">Resultado</th>
+ 	        </tr>
+			<tr>
+	            <td class = "col1">HIP. 4</td>
+	            <td class = "col2 ">
+	            Accesibilidad a datos a través de API oficial de Riot Games.
+	            </td>
+	            <td class = "col3">
+	           	Vía 1: Investigación
+	           	</td>
+	           	<td class = "col4">
+	           	Se confirma que se puede obtener información sobre usuarios no competitivos. 
+	           	</td>
+	        </tr>
+
+			<tr>
+	            <td class = "col1">HIP. 5</td>
+	            <td class = "col2  ">
+	            Accesibilidad a datos a través de web scraping u otras técnicas.
+			
+	            </td>
+	            <td class = "col3">
+	           	Vía 1: Investigación
+	           	</td>
+	           	<td class = "col4">
+	           	Se confirma que se pueden usar técnicas de web scraping para conseguir datos en tiempo real. 
+	           	</td>
+	        </tr>
+			<tr>
+	            <td class = "col1">HIP. 6</td>
+	            <td class = "col2  ">
+	            Capacidad de ofrecer modelos de predicción precisos a usuarios tanto antes de la partida como durante la partida.
+
+	            </td>
+	            <td class = "col3">
+	           	Vía 1: Investigación
+	           	</td>
+	           	<td class = "col4">
+	           	Esta hipótesis sólo puede confirmarse una vez se valide el modelo predictivo.
+	           	</td>
+	        </tr>
+	        <tr>	
+	        	<th class="table_titulo" colspan="2">Hipótesis de Segmento Cliente</th>
+	        	<th class="table_titulo" colspan="1">Vía de validación</th>
+	            <th class="table_titulo" colspan="1">Resultado</th>
+       
+	        </tr>
+	       <tr>
+	            <td class = "col1">HIP. 7</td>
+	            <td class = "col2 ">
+	            20% equipos competitivos dispuestos a invertir en un modelo de predicción de resultados de partidos.
+		
+	            </td>
+	        	<td class = "col3 ">
+	           	Vía 2: Entrevistas
+	           	</td>
+	           	<td class = "col4 ">
+	           	No corroborada.
+	           	</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 8</td>
+	            <td class = "col2  ">
+	            20% de los streamers interesados en usar página web de estadísticas. 
+	            </td>
+	            <td class = "col3">
+	           	Vía 2: Entrevistas
+	           	</td>
+	           	<td class = "col4 ">
+	           	No corroborada. 
+	           	</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 9</td>
+	            <td class = "col2">
+	            5% de los usuarios dispuestos a pagar suscripción acceso exclusivo a estadísticas y predicciones.
+	            </td>
+	            <td class = "col3">
+	           	Vía 3: Encuesta 
+	           	</td>
+	           	<td class = "col4">
+	           	26% confirma estaría dispuesto a pagar, dependiendo del precio. 
+	           	</td>
+	        </tr>
+	        <tr>	
+	        	<th class="table_titulo" colspan="2">Hipótesis del Mercado</th>
+	        	<th class="table_titulo" colspan="1">Vía de validación</th>
+	            <th class="table_titulo" colspan="1">Resultado</th>
+	       	</tr>
+	        <tr>
+	            <td class = "col1">HIP. 10</td>
+	            <td class = "col2">
+	            Creciente demanda de servicios de analítica.
+	            </td>
+	            <td class = "col3">
+	           	Vía 1: Investigación
+	           	</td>
+	           	<td class = "col4">
+	           	Se confirma un interés creciente en servicios de analística.
+	           	</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 11</td>
+	            <td class = "col2">
+	            Creciente demanda de servicios de predicción.
+	            </td>
+	            <td class = "col3">
+	           	Vía 1: Investigación
+	           	</td>
+	           	<td class = "col4">
+	           	Se confirma un interés creciente en servicios de analística. 
+	           	</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 12</td>
+	            <td class = "col2 ">
+	            Escalabilidad a otros E-Sports
+	            </td>
+	            <td class = "col3">
+	           	Vía 3: Encuesta 
+	           	</td>
+	           	<td class = "col4">
+	           	36% están interesados en disponer de la misma herramienta en otros E-Sports. La viabilidad técnica habría que analizarla de manera independiente en una fase posterior. 
+	           	</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 13</td>
+	            <td class = "col2 ">
+	            Capacidad de atracción al 15% de los streamers y comentaristas si se ofrece un modelo predictivo en tiempo real.
+	            </td>
+	            <td class = "col3">
+	           	Vía 2: Entrevistas
+	           	</td>
+	           	<td class = "col4">
+	           	No corroborada. 
+	           	</td>
+	        </tr>
+	         
+	        <tr>	
+	        	<th class="table_titulo" colspan="2">Hipótesis de Precio</th>
+	        	<th class="table_titulo" colspan="1">Vía de validación</th>
+	            <th class="table_titulo" colspan="1">Resultado</th>
+	       	</tr>
+	        <tr>
+	            <td class = "col1">HIP. 14</td>
+	            <td class = "col2">
+	            Usuarios dispuestos a pagar tarifa entre $5 a $12 para acceder a todas las funcionalidades. 
+	            </td>
+	            <td class = "col3">
+	           	Vía 3: Encuesta 
+	           	</td>
+	           	<td class = "col4">
+	           	79% pagaría menos de 5$, 19% entre 5 y 10$, 2% entre 10 y 15$.  
+	           	</td>
+	        </tr>
+	        <tr>
+	            <td class = "col1">HIP. 15</td>
+	            <td class = "col2 ">
+	            Suscripción anual resultaría más atractiva. 
+	            </td>
+	            <td class = "col3 ">
+	           	Vía 3: Encuesta 
+	           	</td>
+	           	<td class = "col4">
+	           	26% confirma.
+	           	</td>
+	        </tr>
+	        <tr>	
+	        	<th class="table_titulo" colspan="2">Hipótesis de Venta</th>
+	        	<th class="table_titulo" colspan="1">Vía de validación</th>
+	            <th class="table_titulo" colspan="1">Resultado</th>
+	       	</tr>
+	        <tr>
+	            <td class = "col1">HIP. 16</td>
+	            <td class = "col2 ">
+	            Aumento de visitantes a página web en un 70% si se ofrecen modelos de predicción. 
+	            </td>
+	            <td class = "col3">
+	           	Vía 3: Encuesta 
+	           	</td>
+	           	<td class = "col4">
+	           	Esta hipótesis sólo podría validarse una vez el servicio esté activo.
+	           	</td>
+	        </tr>
+	        
+	     </table>
+
+	     <h3 class="h3_master">3.4 Conclusiones</h3>
+
+	     <p>El enfoque tridimensional para la validación de hipótesis abordó distintos aspectos cruciales para la viabilidad del proyecto. Aquí se destacan los resultados más sobresalientes:</p>
+
+	     <ol>
+	     	<li><span class="negrita underline">Viabilidad técnica</span>: Las vías de investigación confirmaron la disponibilidad y accesibilidad de datos a través de la API oficial de Riot Games y técnicas de web scraping (HIP. 4 y HIP. 5). Esto valida la viabilidad técnica del proyecto.</li>
+	     	<li><span class="negrita underline">Vacío de mercado</span>: No se encontró ninguna solución de predicción confiable ni herramientas descriptivas personalizables en el mercado actual (HIP. 1 y HIP. 2). Esto indica un vacío en el mercado que el proyecto podría llenar.</li>
+
+	     	<li><span class="negrita underline">Necesidad de usuarios</span>: Casi la mitad de los encuestados considera que contar con herramientas analíticas mejoraría su toma de decisiones (HIP. 3), lo que destaca una necesidad no satisfecha.</li>
+
+
+	     	<li> <span class="negrita underline">Falta de interés de equipos profesionales y Streamers</span>: A pesar de los esfuerzos realizados, las hipótesis relacionadas con la disposición de los equipos profesionales y streamers para invertir en la solución no fueron corroboradas (HIP. 7, HIP. 8 y HIP. 13).</li>
+
+
+	     	<li><span class="negrita underline">Disposición al pago</span>: Un 26% del público general estaría dispuesto a pagar por el servicio, dependiendo del precio (HIP. 9). Aunque el rango de precio más aceptado sería menor a $5 (HIP. 14).</li>
+
+	     	<li><span class="negrita underline">Mercado en crecimiento</span>: Se percibe una demanda creciente de servicios de analítica y predicción en E-sports (HIP. 10 y HIP. 11). Además, hay un interés en escalar la herramienta a otros E-Sports (HIP. 12).</li>
+
+
+
+	     </ol>
+
+	</article>
+
+	<div id="analisis" class="espaciado"></div>
+	<article id="analisis_content">
+		<h2 class="h2_master" >4. Análisis y diagnóstico</h2>
+
+		<h3 class="h3_master">4.1 Análisis del sector</h3>
+
+		<p>El sector de los deportes electrónicos ha experimentado un crecimiento exponencial en la última década y se ha convertido en una industria multimillonaria con un gran potencial de crecimiento y convirtiéndose en una forma de entretenimiento muy popular a nivel global; lo que ha generado un gran interés tanto de patrocinadores como de inversores. Algunos datos que confirman la tendencia del sector al crecimiento son:</p>
+
+		<p><span class="negrita underline">Sector en crecimiento</span>:  Se estima que en 2023 el sector de los e-sport tiene una valoración de alrededor de los 1400 millones de dólares y para 2029 se estima que alcanzará los 5480 millones de dólares .  El ecosistema del sector lo conforman empresas muy variadas: desde las empresas desarrolladoras de videojuegos como Activision Blizzard, Electronic Arts, Riot, TTWO, ect; empresas tecnológicas que desarrollan componentes tecnológicos como Sony, Nvidia, Microsoft.; empresas de plataformas de retransmisión:  Twitch (Amazon), Youtube ( Google), Facebook Gaming ( Meta), Tencent Video, .. y equipos profesionales que en su mayoría son sociedades privadas, aunque algunos pertenecen a sociedades que cotizan en Bolsa como pueden ser el equipo de eSports del Ajax FC.  Sin olvidar a empresas de apuestas que en su mayoría han abierto divisiones destinadas a las apuestas sobre competiciones E-Sports (DraftKings , Bet365 …)</p>
+
+		<p><span class="negrita underline">Audiencias</span>:  En <span class="negrita">2022</span> se estimó que la audiencia alcanzó los <span class="negrita">532 millones de personas</span>. Se espera que esta cifra siga aumentando a medida que se popularicen más juegos y plataformas de transmisión.</p>
+
+
+
+
+		<figure id="img_evolucion_audiencia">
+			<img src="IMG//evol_audiencia.png" alt="Evolucion Audiencia E-Sports">
+			<figcaption>Evolución Audiencia mundial E-Sports.</figcaption>
+			<figcaption>Fuente:  <a href="https://es.statista.com/estadisticas/711557/audiencia-anual-de-esports-a-nivel-mundial/#:~:text=En%202022%2C%20se%20registr%C3%B3%20una,las%20que%20participan%20jugadores%20profesionales.">www.statita.com</a></figcaption>
+		</figure>
+
+		<p> <span class="negrita underline"> Inversión y Patrocinio</span>: Grandes empresas, como marcas deportivas, empresas tecnológicas y cadenas de televisión, han invertido en E-Sports debido a su gran audiencia, incluso <a href="https://sigma.world/news/10-celebrities-who-invested-in-esports/">personalidades</a> de deportes como Michael Jordan, Shaquille O’Neal, David Beckham, etc. son grandes inversores en el sector . Los patrocinios y acuerdos de publicidad en E-Sports son cada vez más comunes, lo que demuestra el interés de las empresas en este sector.</p>
+
+
+		<p> <span class="negrita underline"> Profesionalización</span>: Los equipos y jugadores de e-Sports se han vuelto altamente profesionales, con entrenadores, analistas y una infraestructura similar a la de los deportes tradicionales. Los salarios de los jugadores profesionales y los premios en efectivo han aumentado significativamente.</p>
+
+		<p>La recopilación de datos sobre los jugadores, sus rendimientos y las partidas y su posterior análisis, a la manera que ya se hace en deportes de referencia como la NBA o el futbol profesional, será esencial en el negocio de unos E-Sports cada vez más profesionalizados.  Prevemos una demanda cada vez mayor de herramientas de análisis y modelos predictivos sobre rendimientos, resultados, etc. </p>
+
+
+
+
+		<h3 class="h3_master">4.2 Análsis de la competencia</h3>
+		
+		<p>Se ha realizado una investigación en el mercado de posibles empresas competidoras que ofrezcan servicios similares a los que tenemos planteados desarrollar.  En la búsqueda desarrollada por Internet, hemos identificado empresas que ofrecen servicios de analítica y predicciones de resultados sobre E-Sports.  Pasamos a realizar un análisis crítico de sus servicios para identificar posibles huecos u oportunidades de mejora de dichos servicios: 
+		</p>
+
+
+
+		<div class="analizador">
+			
+			<div class="titulo_analizador">
+				<img class="img_analizar" src="IMG/LOLALITICS.png" alt="">
+				<a  class=" anchor_titulo_analizador" href="https://lolalytics.com/"> www.LOLALYTICS.com</a>
+			</div>
+			<div class="imagen_analizador"> 
+				<a target="_blank" href="IMG/Captura_lolalytics.jpg"><img class="img_cap_analizar" src="IMG/Captura_lolalytics.jpg" alt=""></a>
+
+
+			</div>
+
+			<div class="text_analizador">
+				
+				<p class="titulo_text_analizador"> DESCRIPCIÓN</p>
+			<p class="li_analizador">Página orientada en exclusiva al E-Sport League of Legend, del que ofrece los siguentes servicios:</p>
+			<ol> 
+			<li class="li_analizador">Estadísticas de campeones en función de tipo de juego y nivel.</li>
+			<li class="li_analizador">Ranking de jugadores en nivel retador por región y sus estadísticas.</li>
+			</ol>
+				
+			</div>
+
+			<div class="pro_analizador">
+				<p class="titulo_text_analizador pro">PROS</p>
+				<li class="li_analizador pro">Diferentes idiomas</li>
+				<li class="li_analizador pro">Página web desarrollada con gran interacción.</li>
+				
+
+
+
+
+
+			</div>
+			<div class="contra_analizador">
+				<p class="titulo_text_analizador contra">CONTRAS</p>
+				<li class="li_analizador contra">Exceso de publicidad</li>
+				<li class="li_analizador contra">Poco explicativo. Dificultades para entender la interfaz</li>
+				<li class="li_analizador contra">Exclusivamente orientado a LoL</li>
+				<li class="li_analizador contra">Mala traducción</li>
+				<li class="li_analizador contra">No ofrece modelos predictivos</li>
+				<li class="li_analizador contra">No ofrece gráficas de analítica personalizadas</li>
+				<li class="li_analizador contra">Sólo orientado a usuarios no profesionales de alto nivel</li>
+			</div> 
+		</div>
+
+
+		<div class="analizador">
+			
+			<div class="titulo_analizador">
+				<img class="img_analizar" src="IMG/championgg.jpg" alt="">
+				<a  class=" anchor_titulo_analizador" href="https://champion.gg/"> CHAMPION.GG</a>
+			</div>
+			<div class="imagen_analizador"> 
+				<img class="img_cap_analizar" src="IMG/Captura championgg.jpg" alt="">
+
+
+			</div>
+
+			<div class="text_analizador">
+				
+				<p class="titulo_text_analizador"> DESCRIPCIÓN</p>
+			<p class="li_analizador">Página orientada a estadísticas LoL, ofrece las siguientes: </p>
+			<ol> 
+			<li class="li_analizador">Estadísticas de campeones en función de tipo de juego y nivel.</li>
+			<li class="li_analizador">Ranking de jugadores en nivel retador por región y sus estadísticas.</li>
+			</ol>
+				
+
+
+
+			</div>
+
+			<div class="pro_analizador">
+				<p class="titulo_text_analizador pro">PROS</p>
+				<li class="li_analizador pro">Ofrece la estadística para el parche más actual de LoL</li>
+				<li class="li_analizador pro">Estadísticas de jugadores profesionales por equipo, ligas y regiones.</li>
+				<li class="li_analizador pro">Ofrece datos de estrategias empleadas por jugadores profesionales en sus últimas partidas</li>
+				<li class="li_analizador pro">Ofrece enlace a otra página para estadsticas de otro E-Sports</li>
+			</div>
+			<div class="contra_analizador">
+				<p class="titulo_text_analizador contra">CONTRAS</p>
+				<li class="li_analizador contra">Poco explicativo. Dificultades para entender la interfaz.</li>
+				<li class="li_analizador contra">Exclusivamente orientado a LoL</li>
+				<li class="li_analizador contra">Mala traducción</li>
+				<li class="li_analizador contra">Sólo orientado a usuarios no profesionales de alto nivel</li>
+				
+			</div> 
+		</div>
+
+
+
+		<h3 class="h3_master">4.3 Análsis DAFO</h3>
+
+		<div id="dafo">
+			 
+			<img  id="fig_dafo" src="IMG//DAFO-svg.svg" alt="Esquema DAFO">
+			<p class="for_titulo">FORTALEZAS</p> 
+			 <p class="deb_titul">DEBILIDADES</p>
+			<p class="am_titul">AMENAZAS</p> 
+			<p class="opo_titul">OPORTUNIDADES</p> 
+			 
+			 
+
+			<div id="fortaleza">
+				<div class="dafo_interior">
+					<ul class="li_dafo fortaleza">
+					<li>Identificación de los mejores jugadores para las distintas modalidades de juego</li>
+					<li>Herramientas sencillas y con facilidad de visualización</li>
+					<li>Posibilidad de ser referentes en el mercado.</li>
+					
+				</ul>
+				</div>
+			</div>
+			<div id="debilidad">
+				<div class="dafo_interior dafo_derecha">
+				 
+					<ul class="li_dafo debilidad">
+					<li>Inexperiencia y desconocimiento.</li>
+					<li>Carencia de visibilidad en fase inicial de proyecto.</li>
+					<li>Carencia de recursos.</li>
+					<li>Dificultades de monetización.</li>
+					
+				</ul>
+				</div>
+			</div>
+			<div id="amenaza">
+				<div class="dafo_interior">
+				 
+					<ul class="li_dafo amenaza">
+					<li>Dependencia de Riot Games para obtención y gestión de datos.</li>
+					<li>Posibilidad de que otros E-Sports sustituyan a LoL.</li>
+					<li>Fácilmente replicable.</li>
+					<li>Estacionalidad del mercado ligada a torneos</li>
+					
+				</ul>
+				</div>
+			</div>
+			<div id="oportunidad">
+					<div class="dafo_interior dafo_derecha">
+				 
+						<ul class="li_dafo oportunidad">
+							<li>Disponibilidad de grandes cantidades de datos.</li>
+							<li>Crecimiento continuo y con mayor contenido.</li>
+							<li>Escasa competencia.</li>
+							<li>Expansión a nivel internacional.</li>
+							<li>Aumento de las inversiones en el sector de este tipo de videojuego.</li>
+						</ul>
+					</div>
+				
+			</div>
+			
+
+
+		</div>
+		<!-- 	
+		<figure id="fig_dafo">
+			<img src="IMG//DAFO.jpg" alt="Esquema DAFO">
+			
+			<figcaption>Fuente:  Producción propia</figcaption>
+		</figure> -->
+	</article>
+
+	<div id="estrategia" class="espaciado"></div>
+	<article id="estrategia_content">
+		<h2 class="h2_master" >5. Plan estratégico</h2>
+		
+		<h3 class="h3_master">5.1 Modelo de Negocio</h3>
+		<p>
+			<span class="underline">E-Sport Analysis</span> es una innovadora start-up que ha surgido a partir del proyecto fin de Master en Big Data y Business Analytics en la Escuela de Organización Industrial (EOI). Nuestra misión es introducir soluciones analíticas basadas en técnicas de Big Data y modelos de predicción por Machine Learning en el  sector de los E-Sports, centrándonos inicialmente en el E-Sport asociado al popular videojuego League of Legends.</p>
+
+		<p>Los E-Sports, que combinan  videojuegos y retransmisiones por modernas plataformas digitales, representan un modelo de negocio intrínsecamente vinculado a la era digital y dependiente de las tecnologías propias de nuestra era. Estos eventos generan una gran cantidad de datos digitales que pueden ser recopilados a través de diversos canales. En este contexto, la aplicación de tecnologías Big Data adquiere una relevancia fundamental, ofreciendo herramientas valiosas para la extracción de conocimientos en todas las facetas de este sector en constante crecimiento.</p>
+
+		<p>El proyecto de fin de máster que nos ocupa marca el punto de partida de nuestra propuesta de negocio, basada en la premisa anterior. Para asegurar la viabilidad de nuestro futuro negocio, es esencial abordarlo desde su origen de manera metodológica, anticipando todos los posibles factores de éxito o fracaso. </p>
+
+		<p>Una metodología especialmente diseñada para abordar este tipo de desafíos es el "Design Thinking" y su herramienta complementaria, el "Business Model Canvas". Esta última, de forma concisa y visual, aborda todos los aspectos relevantes para el desarrollo de un negocio, proporcionando una base sólida para la planificación y ejecución de nuestra estrategia en el mercado de los E-Sports. En este capítulo, exploraremos en detalle nuestro modelo de negocio y cómo aplicamos estas metodologías para su diseño y desarrollo.</p>
+
+		
+		
+
+		<div id="mod_negocio">
+		
+			<div id="recurs_tit" class="mn_format1 tpv1  grid" onclick="activ_mn('recur_expl')" >RECURSOS CLAVE
+				<img class = "ico_bmc" src="IMG/fullscreen.svg"  >
+			</div>
+			<div id="socios_tit" class="mn_format1 tpv1 grid"  onclick="activ_mn('socios_expl')">SOCIOS CLAVE
+				<img class = "ico_bmc" src="IMG/fullscreen.svg"> </div>
+			<div id="propuesta_tit" class="mn_format1 tpv1 grid" onclick="activ_mn('propuesta_expl')">PROPUESTA DE VALOR
+			<img class = "ico_bmc" src="IMG/fullscreen.svg"></div>
+			<div id="relacion_tit" class="mn_format1 tpv1 grid" onclick="activ_mn('relacion_expl')">RELACIÓN CON CLIENTES
+			<img class = "ico_bmc" src="IMG/fullscreen.svg"></div>
+			<div id="clientes_tit" class="mn_format1 tpv1 grid" onclick="activ_mn('clientes_expl')">SEGMENTOS DE CLIENTE
+			<img class = "ico_bmc" src="IMG/fullscreen.svg"></div>
+			<div id="recurs" class="mn_format1 tpv1 th1" onclick="activ_mn('recur_expl')">
+				<ul>
+					<li>Conocimiento de negocio.</li>
+					<li>Datos y fuentes de información.</li>
+					<li>Infraestructura tecnológica</li>
+					<li>Equipo de desarrollo y análisis</li>
+					<li>Equipo de marketing</li>
+					<li>Recursos financieros</li>
+
+
+				</ul>
+				<img class = "ico_bmc" src="IMG/fullscreen.svg"  >
+			</div>	
+			<div id="socios"class="mn_format1 tpv1 " onclick="activ_mn('socios_expl')">
+				<ul>
+					
+					<li>Equipos Profesionales E-Sports</li>
+					<li>Ligas profesionales E-sports</li>
+					<li>Casas de apuestas</li>
+					<img class = "ico_bmc" src="IMG/fullscreen.svg">
+				</ul>
+			</div>
+			<div id="propuesta"class="mn_format1 tpv1  th1" onclick="activ_mn('propuesta_expl')">
+				<ul>
+					<li>Análisis de datos mediante técnología Big Data más vanguardista para análisis de grandes volumenes de datos, identificación de patrones y tendencias.</li>
+					<li>Uso de metodología Business Analytics para extracción de insights que permitan la optimización del rendimiento de jugadores y equipos.</li>
+					<li>Apoyo para toma de decisiones en la estrategia de equipos competitivos, inversores.</li>
+					<li>Uso de modelos de predicción.</li>
+					<li>Asesoramiento estratégico personalizado.</li>
+
+					
+				</ul>
+				<img class = "ico_bmc" src="IMG/fullscreen.svg">
+			</div>
+			<div id="relacion" class="mn_format1 tpv1" onclick="activ_mn('relacion_expl')" >
+				<ul>
+					<li>Colaborción con equipos y ligas profesionales</li>
+					<li>Organizaciones y ligas de League of Legends</li>
+					<li>Conferencias y eventos E-Sports</li>
+					 
+				</ul>
+				<img class = "ico_bmc" src="IMG/fullscreen.svg">
+			</div>
+			<div id="clientes" class="mn_format1 tpv1  th1 " onclick="activ_mn('clientes_expl')">
+				<p>Cuatro segmentos de clientes dentro de dos tipos:</p>
+				<ol>
+					<li ><span class="negrita">Cliente profesional:</span>	
+						<ul>
+							<li>Equipos y ligas profesionales</li>
+					 		<li>Empresas E-sports: sponsors, empresas restransmisión eventos, streamers...</li>
+							<li>Casas de apuestas</li>
+						</ul>
+					</li>
+					<br>
+					<li><span class="negrita">Cliente no profesional:</span>
+						<ul>
+							<li>Gamers</li>
+							<li>Espectadores E-sports</li>
+							<li>Apostantes</li>
+
+						</ul>
+
+					</li>
+				</ol>
+				<img class = "ico_bmc" src="IMG/fullscreen.svg">
+			</div>
+		
+			<div id="actividades_tit" class="mn_format1  tpv1 grid" onclick="activ_mn('actividades_expl')">ACTIVIDADES CLAVE
+			<img class = "ico_bmc" src="IMG/fullscreen.svg"></div>
+			<div id="canales_tit" class="mn_format1 tpv1 grid" onclick="activ_mn('canales_expl')">CANALES
+			<img class = "ico_bmc" src="IMG/fullscreen.svg"></div>
+			<div id="actividades" class="mn_format1 tpv1" onclick="activ_mn('actividades_expl')">
+				<ul>
+					<li>Desarrollo y mantenimiento plataforma tecnológica</li>
+					<li>Recopilación, procesamiento de datos y desarrollo de modelos predictivos</li>
+					<li>Investigación y actualización de conocimientos</li>
+					<li>Estrategias de marketing y de promoción</li>
+					<li>Atención al cliente y soporte técnico</li>
+					<li>Gestión financiera y operativa</li>
+				</ul>
+				<img class = "ico_bmc" src="IMG/fullscreen.svg">
+			</div>
+			<div id="canales" class="mn_format1 tpv1" onclick="activ_mn('canales_expl')">
+				<ul>
+					<li>Saas: Software as service</li>
+					<li>Suscripciones licencias de uso</li>
+					<li>Web</li>
+				</ul>
+				<img class = "ico_bmc" src="IMG/fullscreen.svg">
+			</div> 
+
+			<div id="costes_tit" class="mn_format1 tpv2 grid" onclick="activ_mn('costes_expl')">ESTRUCTURA DE COSTES
+			<img class = "ico_bmc" src="IMG/fullscreen.svg"></div>
+			<div id="ingresos_tit" class="mn_format1 tpv2 grid" onclick="activ_mn('ingresos_expl')">FUENTE DE INGRESOS/BENEFICIOS
+			<img class = "ico_bmc" src="IMG/fullscreen.svg"></div>
+
+
+			<div id="costes" class="mn_format1 tpv2 th2" onclick="activ_mn('costes_expl')">
+				 
+				<ul>
+					<li>Desarrollo técnico: equipo de desarrollo I+D</li>
+					<li>Desarrollo comercial: equipo de desarrollo web y campañas de marketing</li>
+					<li>Costes recursos tecnológicos: plataforma Cloud, hosting, pasarela de pago, software visualización (PwBI)  </li>
+							 
+				</ul>
+				<img class = "ico_bmc" src="IMG/fullscreen.svg">
+			</div>
+
+			<div id="ingresos" class="mn_format1 tpv2 th2" onclick="activ_mn('ingresos_expl')">
+		<ol>
+					<li ><span class="negrita">Cliente profesional:</span>	
+						<ul>
+							<li>Cuota mensual por servicios analítica de datos </li>
+					 		<li>Cuota mensual por acceso mediante API de predicción resultados</li>
+							 
+						</ul>
+					</li>
+					
+					<li><span class="negrita">Página web para cliente no profesional:</span>
+						<ul>
+							<li>Publicidad</li>
+							<li>Servicios Premium</li>
+							 
+
+						</ul>
+
+					</li>
+				</ol>
+				<img class = "ico_bmc" src="IMG/fullscreen.svg">
+			</div>
+
+
+			<div id="recur_expl" class="mn_expandible" onclick="deactiv_mn('recur_expl')">
+				<h3 class="mn_expn_h3">RECURSOS CLAVE</h3>
+				
+				<h4>Intelectual</h4>
+				<ul>
+					<li>Conocimiento del producto: Para ofrecer el mejor de los servicios a los clientes s necesario un conocimiento profundo de los E-Sport analizados.				
+					</li>
+
+					<li>Datos y fuentes de información: Nuestra recurso principal son los datos digitales disponibles por los desarrolladores de los videojuegos.</li>
+					
+					
+				</ul>
+				<h4>Físico</h4>
+				<p> Necesario disponer de una infraestructura tecnológica:</p>
+				<ul>
+					<li>Plataforma Cloud</li>
+					<li>Software visualización</li>
+					<li>Plataforma de pago</li>
+					<li>Hosting web</li>
+				</ul> 
+				<h4>Humano</h4>
+					<ul>
+						<li>Equipo de desarrollo y análisis: Equipo encargado de las labores de diseñar, desarrollar y mantener el producto y el servicio</li>
+						<li>Equipo comercial: equipo encargado de las tareas de marketing, mantenimiento web, servicio post-venta...</li>
+					</ul>
+				<h4>Financiero</h4>
+				<p>Para lanzar el negocio es necesiario un capital destinado al desarrollo web, marketing web, campañas por redes sociales, contratación de la infraestructura tecnológica,  costes fijos de gestión, etc.</p>
+				
+
+			</div>	
+
+			<div id="socios_expl" class="mn_expandible" onclick="deactiv_mn('socios_expl')">
+				<h3 class="mn_expn_h3">SOCIOS CLAVE</h3>
+				
+				
+				<ul>
+					<li>Inversores</li>
+					<li>Desarrolladores Videojuegos (Riot, etc...)</li>
+					<li>Entidades organizadoras de ligas competitivas</li>
+					<li>Equipos competitivos</li>
+					<li>Empresas de apuestas on-line</li>
+					
+				</ul>
+				
+				
+
+			</div>	
+			<div id="propuesta_expl" class="mn_expandible" onclick="deactiv_mn('propuesta_expl')">
+				<h3 class="mn_expn_h3">PROPUESTA DE VALOR</h3>
+				<p>E-Sport Analytics nace como una propuesta innovadora en el análisis de datos y creación de modelos predictivos para el juego de League of Legends, entendiendo la necesidad de los jugadores y equipos implicados de los E-Sports de tomar decisiones estratégicas, sólidas para maximizar sus beneficios en un entorno de alta competición cada vez más en auge.</p>
+
+				<p>Nuestro enfoque se basa en utilizar técnicas avanzadas de business intelligence y análisis de datos para proporcionar información valiosa a la comunidad implicada. A través de la recopilación, procesamiento y visualización de datos relevantes, brindamos a los stakeholders de los E-Sports, potentes herramientas para comprender y predecir el comportamiento y rendimiento de los jugadores, patrones en el resultado de partidas y estrategias de juego.</p>
+				<br>
+
+				<p>Los pilares de nuestra propuesta de valor se encuentran en varios aspectos presentados a continuación: </p>
+				<br>
+
+				<p><span class="negrita">Análisis exhaustivo de datos</span>: Utilizamos tecnología Big Data más vanguardista para analizar grandes volúmenes de datos, identificar patrones y tendencias clave, de este modo se puede brindar información relevante y precisa para la toma de decisiones estratégicas, y optimizar el rendimiento de jugadores y equipos.</p>
+				<br>
+				<p><span class="negrita">Apoyo a la toma de decisiones</span>: Nuestros análisis y modelos permiten a los equipos tomar decisiones fundamentales respaldadas por datos sólidos. Esto ayuda a minimizar riesgos, optimizar inversiones en jugadores y maximizar los rendimientos generales de los equipos.</p>
+				<br>
+
+				<p><span class="negrita">Modelos predictivos</span>: Creamos modelos predictivos confiables que ayudan a los equipos a evaluar el rendimiento de los jugadores, para anticipar resultados de partidas y diseñar estrategias ganadoras. Estos modelos brindan una ventaja competitiva al permitir una planificación más precisa y efectiva, antes y durante las partidas.</p>
+				<br>
+
+
+				<p><span class="negrita">Asesoramiento estratégico</span>: Además del análisis de datos, ofrecemos asesoramiento estratégico basado en nuestros hallazgos. Trabajando en estrecha colaboración con los usuarios para comprender sus objetivos y desafíos específicos y brindar recomendaciones personalizadas para la consecución del éxito.</p>
+				<br>
+
+				<p>En resumen, nuestra propuesta de valor se basa en la combinación de análisis de datos, modelos predictivos y asesoramiento estratégico para brindar a jugadores y equipos una ventaja competitiva y un enfoque basado en datos en la toma de decisiones.</p> 
+
+		
+
+
+
+		</ul>
+				
+				
+
+			</div>	
+
+			<div id="relacion_expl" class="mn_expandible" onclick="deactiv_mn('relacion_expl')">
+				<h3 class="mn_expn_h3">RELACIÓN CON LOS CLIENTES</h3>
+				
+				
+		<p>1.	Clientes Profesionales:</p>
+
+	<p>Personalización y Asesoramiento: Se ofrecerería un servicio personalizado y consultoría analítica a equipos, jugadores profesionales y otras entidades profesionales para ayudarles a entender y utilizar los datos y análisis proporcionados para mejorar su rendimiento y estrategia.</p>
+	<p>Acceso a Plataformas Exclusivas: Apartado exclusivo en la web donde los clientes profesionales pueden acceder a análisis avanzados, reportes y asesoramiento especializado.
+	<p>Talleres y Capacitación: Se organizarían talleres o sesiones de capacitación sobre cómo interpretar y utilizar los datos y análisis proporcionados para la toma de decisiones estratégicas.</p>
+	<p>Soporte Técnico Continuo: Se ofrecería soporte técnico y asistencia para cualquier consulta o necesidad re<p>
+	<p>2.	Clientes No Profesionales:</p>
+
+	<p>Plataforma en Línea: Página web de fácil uso donde los usuarios pueden acceder a análisis, estadísticas y predicciones. Se incluye una sección de FAQ y tutoriales para ayudar a los usuarios a navegar por la plataforma y entender los datos.</p>
+	<p>Automatización y Personalización: Como posible mejora de los servicios, los usuarios podrían tener la opción de personalizar su experiencia en la plataforma, y recibir recomendaciones automáticas basadas en sus intereses y comportamientos anteriores.</p>
+	<p>Feedback y Mejora Continua: Se implementar un canal  para poder proporcionar feedback para entender las necesidades y preferencias de los usuarios, y utilizar esta información para mejorar continuamente la plataforma y los servicios ofrecidos.</p>
+
+
+	
+				
+
+			</div>	
+
+			<div id="clientes_expl" class="mn_expandible" onclick="deactiv_mn('clientes_expl')">
+				<h3 class="mn_expn_h3">SEGMENTOS DE CLIENTES</h3>
+				<br>
+				<p>Establecemos cuatro tipos de clientes potenciales de nuestro negocio que agrupamos dentro de dos clases:</p>
+
+				<br>
+
+				<p>1. Clientes profesionales:</p>
+				<br>
+				<p>Equipos y ligas profesionales: Se ofrecería servicios de analítica y estadística avanzada a equipos y jugadores profesionales, obteniendo datos acerca del rendimiento de los jugadores y equipos para permitir tomar decisiones estratégicas informadas, optimizando su rendimiento, maximizando sus inversiones en jugadores y obteniendo una ventaja competitiva dentro del propio juego.</p>
+				<br>	
+				<p>Empresas relacionadas con el mundo de los deportes electrónicos: Además de los mencionados previamente nos dirigimos a empresas que operan en el ámbito de los deportes electrónicos. Esto incluye a patrocinadores y agencias de marketing que buscan aprovechar los análisis de datos para tomar decisiones informadas sobre sus inversiones y estrategias de marketing dentro de los E-Sports</p>
+				<br>
+				<p>Casas de apuestas: Las casas de apuestas son otro segmento de clientes que se pueden beneficiar de nuestros servicios. Proporcionamos información y análisis estadístico que les permite establecer cuotas y probabilidades más precisas, lo que resulta en una mejor experiencia para los apostadores y una mayor confianza en sus apuestas relacionadas con los E-Sports.</p>
+				<br>
+				<p>2. Clientes no profesionales:</p>
+				<br>
+				<p>Usuario vía web: Nos dirigimos a jugadores no profesionales, fans, espectadores, interesados en obtener información, análisis y consejos sobre E-Sports. podrán acceder a análisis y estadísticas de equipos profesionales y también si son jugadores habituales, podrán acceder a sus propios rendimientos estableciendo comparativas con los jugadores profesionales. Además, dispondrán de predicción de resultados obtenidos por modelos predictivos. </p>
+
+				
+
+			</div>
+
+
+			<div id="actividades_expl" class="mn_expandible" onclick="deactiv_mn('actividades_expl')">
+				<h3 class="mn_expn_h3">ACTIVIDADES CLAVE</h3>
+				<br>
+				
+				<p>1. Desarrollo y mantenimiento de plataforma tecnológica </p>
+
+				<p>Crear y mantener una plataforma en línea robusta y segura donde los distintos tipos de clientes puedan acceder a los diferentes servicios. Implementación de mejoras de acuerdo al feedback recibido. </p>
+
+				<p>2. Recopilación, procesamiento de datos y desarrollo de modelos predictivos</p>
+
+				<p>Aplicando tecnología Big Data más actuales, recopilamos el recurso clave de nuestro negocio: el dato digital generado por los E-Sports. Para ello mediante acuerdo con las empresas de desarrollo de los videojuegos como es el caso de Riot Games para League of Legends, accederíamos vía API a sus bases de datos.  También buscaríamos obtener datos de otras empresas relacionadas con los E-Sports: ligas, empresas de retransmisión (Twitch, Youtube etc), casas de apuestas, etc. para poder ofrecer analíticas avanzadas. </p>
+
+				
+				<p>3. Investigación y actualización de conocimientos</p>
+
+				<p>Los E-Sports son un sector muy dinámico y en continua evolución con constantes actualizaciones, apariciones de nuevos modelos de juego, etc. Esto requiere un continuo aprendizaje y evolución que puede ser apoyado por: las alianzas estratégicas, la participación en eventos y conferencias, suscripciones a revistas, monitorización de competidores, etc. </p>
+
+				<p>4.Estrategias de marketing y de promoción</p>
+
+				<p>La primera y mayor acción de marketing es el desarrollo de una página web que en la fase inicial de lanzamiento del negocio atraiga a clientes no profesionales en busca de servicios de analíticas novedosas respecto a lo que actualmente puede encontrar en el mercado.  Esta web nos servirá para ir desarrollando nuestros productos de analítica más avanzados y serviría como tarjeta de presentación para conseguir contratos de los clientes profesionales mostrando nuestras capacidades.  </p>
+
+				<p>Para el buen posicionamiento de la web, se requiere un desarrollo profesional de la misma que tenga en cuenta el posicionamiento SEO de esta con el fin de colocarse en las primeras posiciones dentro de las búsquedas relacionadas con E-Sports y analíticas dentro de los navegadores web. Se puede plantear asimismo la inversión en marketing de posicionamiento SEM (pago para ubicación en primeros puestos en buscadores).</p>
+
+				<p>En siguientes fases de desarrollo de negocio y más orientado al cliente profesional, se desarrollaría campañas de marketing y procesos de publicidad directa de nuestra propuesta de negocio con todas las empresas profesionales vinculadas al mundo de los E-Sports.</p>
+
+				<p>Es importante, dado que nos movemos en un sector muy digital, realizar campañas dentro de redes sociales que son de uso habitual entre los usuarios de e-sports: canales como twitch,twitter, Instagram, discord etc.</p> 
+
+				
+
+				<p>5.Atención al cliente y soporte técnico</p>
+
+				<p>Es esencial prestar una buena atención al cliente, y ofrecer servicios de analítica personalizadas a nuestros clientes profesionales, que esté en permanente implementación de sus feedback aportados.</p> 
+				
+				
+
+				<p>6. Cumplimiento de normativas y protección de datos</p>
+
+				<p>Será importante asegurar el cumplimiento de todas las normativas relevantes, especialmente en lo que respecta a la protección de datos y la privacidad de acuerdo a los países donde se opere.</p> 
+
+				<p>7. Gestión financiera y operativa</p>
+
+				<p>Administrar los recursos financieros y operativos de la empresa de manera eficiente para garantizar, primero, la sostenibilidad, y segundo, el crecimiento del negocio. </p>
+
+				
+				
+
+			</div>	
+			<div id="canales_expl" class="mn_expandible" onclick="deactiv_mn('canales_expl')">
+				<h3 class="mn_expn_h3">CANALES</h3>
+				
+				
+				
+
+			</div>	
+			<div id="costes_expl" class="mn_expandible" onclick="deactiv_mn('costes_expl')">
+				<h3 class="mn_expn_h3">ESTRUCTURA DE COSTES</h3>
+				
+				
+				
+
+			</div>	
+
+			<div id="ingresos_expl" class="mn_expandible" onclick="deactiv_mn('ingresos_expl')">
+				<h3 class="mn_expn_h3">FUENTE DE INGRESOS</h3>
+				
+				
+				
+
+			</div>		
+		</div>
+
+
+
+	
+		<h3 class="h3_master">5.2 Misión</h3>
+
+		<p>Et nisi nulla velit incididunt.</p>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+		<h3 class="h3_master">5.3 Visión</h3>
+		<p>Et nisi nulla velit incididunt.</p>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+		<h3 class="h3_master">5.4 Objetivos</h3>
+		<p>Et nisi nulla velit incididunt.</p>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+	</article>
+
+	<div id="accion" class="espaciado"></div>
+	<article id="accion_content">
+		<h2 class="h2_master" >6. Plan de acción</h2>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.
+	</article>	
+
+	<div id="tecnica" class="espaciado"></div>
+	
+	<article id="tecnica_content">
+		<h2 class="h2_master" >7. Solución tecnológica</h2>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+		<h3 class="h3_master">7.1 Arquitectura </h3>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+
+		<h3 class="h3_master">7.2 Obtención datos y proceso ETL</h3>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+
+
+		<h3 class="h3_master">7.3 Visualización</h3>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+
+		<h3 class="h3_master">7.4 Modelos predictivos</h3>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+
+		<h3 class="h3_master">7.5 Prototipo página Web</h3>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+
+	</article>
+
+	<div id="opti" class="espaciado"></div>
+	<article id="opti_content">
+		<h2 class="h2_master" >8. Optimización de resultados</h2>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.
+	</article>	
+	
+	<div id="conclusiones" class="espaciado"></div>
+	<article id="conclusiones_content">
+		<h2 class="h2_master" >9. Conclusiones</h2>
+
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+		</p>
+		<p>Eiusmod aute nostrud voluptate enim mollit et ad dolore est irure amet sint cillum ut in sed adipisicing voluptate sunt eiusmod sit labore labore occaecat in excepteur sint sint esse ullamco minim magna exercitation quis eu labore aliqua irure irure officia consequat ex exercitation amet ad sed consectetur quis duis eu ullamco ea ea dolore quis pariatur dolor culpa amet adipisicing non qui velit elit sint eiusmod ad laboris dolore voluptate reprehenderit ad in pariatur deserunt laboris dolor culpa quis consequat cillum officia dolor dolor ea sint aliqua dolor sit dolore aliquip ad aliquip labore deserunt adipisicing consequat ullamco exercitation anim dolor veniam commodo veniam tempor occaecat laborum consectetur incididunt ut et cillum cupidatat ut laboris cupidatat ea cupidatat laboris magna sed ex minim dolor enim aliqua commodo veniam ex aute ea mollit proident quis ullamco veniam enim ut adipisicing magna cillum ea id eiusmod laborum voluptate adipisicing laborum culpa consectetur irure enim sit nulla dolore sit duis eiusmod deserunt officia nisi tempor exercitation anim velit consectetur esse tempor commodo laborum ut aute non pariatur voluptate officia esse nostrud qui qui velit duis dolor labore sed nulla mollit proident sit minim in in sed excepteur occaecat ex id ad duis in ut in ex non nulla pariatur dolor ut aute deserunt adipisicing dolore dolore adipisicing laborum tempor veniam esse quis magna ex in est sunt sit et irure in ea consectetur magna culpa exercitation veniam sit nisi laboris qui aliqua veniam non dolore dolor fugiat adipisicing.	
+		</p>
+	</article>
+	</content> 
+
+	<div id="blanco" ></div>
+
+	<iframe title="Report Section" width="1200" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiODc5ZDIxOTgtMDY1Ny00YmZiLWI3M2EtYjRmNjczMTA4MTUzIiwidCI6IjMwNzcxYWRkLTZiMWUtNDAwZS1iZTNiLWU2ZTg1NzhlNjlkMSIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+	<
+	img id="reloj" src="IMG//reloj.svg" alt="">
+</div>  
+
+<footer class="footer_display">
+	<p id="copyright" >@2023 E-Sport LoLo Analytics</p>	
+	<div id="footer_middle">
+		<p class="text_footer"><a id="legal" href="legal.html" >Aviso Legal</a></p>	
+		<p class="text_footer"><a id="privacidad" href="privacidad.html"  >Política de privacidad</a></p>	
+		<p class="text_footer"><a id="cookies" href="cookies.html"  >Política de cookies</a></p>
+		 
+		</div>
+		<p id="who" ><a id="a_who" href="quienes_somos.html" target="_blank" >Quiénes Somos</a></p>
+	</footer>
+	
+
+
+</div>	 
+</div>
+
+</body>
+</html>
+
+	
+	
+
+
+
+

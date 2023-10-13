@@ -1,0 +1,306 @@
+/* prefijos
+
+# ES PARA ID
+.  ES PARA CLASS
+
+-webkit-  Google Chrome, Safari, Navigator
+-moz-  Firefox
+-o- Opera
+-ms- Internet explorer Edge
+-khtml-  Konqueror
+
+*/
+
+/*
+
+Responsive design y mobile first
+La clave de responsive design es que no aparezca la barra horizontal de
+@media screen and (min-width: 480px){
+	
+}
+/* PARA MOVIL HORIZONTAL: */ /*
+@media screen and (min-width: 480px){
+	
+}
+/* PARA TABLET: */ /*
+@media screen and (min-width: 767px){
+	
+}
+/* PARA MONITORES: */ /*
+@media screen and (min-width: 950px){
+	
+}
+
+*/
+
+
+
+/*#container{
+	display: grid;
+	height:auto;
+	grid-template: 180px repeat(2, 100%) 30px/   repeat(4,1fr) ;
+	>gap: 5px 4px;
+	}	*/
+
+
+	#container{
+	display: grid;
+	background: black;
+	height:860px;
+	grid-template: 180px 100px 100px 30px/   10px repeat(3,1fr) ;
+	gap: 1px 1px;
+	}	
+
+
+	.item{
+	width: 100%;
+	height:100%;
+	background: lightgray;
+	}
+
+	.aside_display {
+	grid-column: span 1;
+	grid-row: span 3;
+	}
+
+	.article_display {
+	grid-column: span 2;
+	grid-row: span 1;
+	
+	display: flex;
+	flex-direction: column;
+	}
+
+
+	.content_display {
+	grid-column: span 2;
+	grid-row: span 1;
+	align-items:center ;
+	display: flex;
+	flex-direction: column;
+	}
+
+
+	.footer_display {
+	grid-column: span 4;
+	grid-row: span 1;
+	align-items:center ;
+	display: flex;
+	flex-direction: column;
+	b
+	}
+
+	.cont_2, .cont_4{
+	display: none;
+	}
+
+
+
+	#bienvenida{
+		font-size: 2em;
+		color: blue;
+	}
+
+	.texto_bienv{
+		font-size: 1em;
+		color: blue;
+		<--border: 2px solid black
+	}
+
+	.coso{
+	margin: 10px 10px;
+	width: 150px;
+	height: 70px;
+	<--border 2px solid white;
+	border-radius: 15px;
+	}
+	.movil{
+		display:none;
+	}
+}
+}
+
+
+
+@media screen and (min-width: 480px){
+	#container{
+		background:blueviolet;
+		height:94vh;
+	}
+}
+
+
+/*@media screen and (min-width: 480px){
+	#container{
+	background: orange;
+	height:94vh;
+	<grid-template: 16vh repeat(2 3fr) 3vh/   10px repeat(3,1fr) ;
+	grid-template: 16vh repeat(2, 1fr) 30px/ 10px repeat(3,1fr);
+	gap: 1px 1px;
+	}	}
+*/
+
+
+@media screen and (min-width: 767px){
+
+	#container{
+	background:yellow;
+	height:94vh;
+	>grid-template: 200px repeat(2, 50vh) 40px/ 180px repeat(2,1fr) 190px;
+	grid-template: 16vh repeat(2, 36vh) 4vh/ 20vw repeat(2,1fr) 25vw;
+	>gap: 5px 4px;
+	}	
+
+
+	.content_display {
+	grid-column: span 1;
+	grid-row: span 1;
+	align-items:center ;
+	display: flex;
+	flex-direction: column;
+	}
+
+
+	#bienvenida{
+		text-align: center;
+		font-size: 1.2em;
+		font-family: sans-serif;
+		font-weight:bolder;
+		color: navy;
+		margin:5px 0px;
+	}
+	
+	.texto_bienv{
+		font-family: sans-serif;
+		font-size: 0.7em;
+		color: steelblue;
+		margin: 3px 1px 4px 5px;
+	}
+	
+	.coso{
+		margin: 20px 20px;
+		width: 180px;
+		height: 90px;
+		<--border 2px solid white;
+		border-radius: 28px;
+	}
+	
+	.movil{
+		display:flex;
+		flex-direction: column;
+	}
+
+
+	.texto_bienv{
+
+		
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 950px){
+#container{
+	
+	background: green;
+	height: 94vh;
+	grid-template: 20vh repeat(2, 1fr) 4vh/ 250px repeat(2,1fr) 300px;
+	gap: 5px 4px;
+	}	
+
+
+	#bienvenida{
+		font-size: 1.5em;
+		
+	}	
+
+	.texto_bienv{
+		font-size: 0.8em;
+		margin: 3px 1px 5px 5px;
+	}	
+
+}
+
+@media screen and (min-width: 1250px){
+
+#bienvenida{
+		text-align: center;
+		font-size: 2em;
+		font-family: sans-serif;
+		font-weight:bolder;
+		color: navy;
+		margin:5px 0px;
+		
+	}	
+
+	.texto_bienv{
+		font-family: sans-serif;
+		font-size: 1.2em;
+		color: steelblue;
+		margin: 5px 2px 7px 6px;
+		
+	}	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
