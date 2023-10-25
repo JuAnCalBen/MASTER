@@ -1009,3 +1009,8 @@ div.mn_expandible ul li {
 div#actividades_expl > p{
 	font-size: 0.9em;
 }
+
+i{
+	font-style: italic;
+	font-size: 1em;
+}
