@@ -119,21 +119,12 @@ header{
 	width:200px;
 	height:100%;
 	margin: 0px;
-	
-	
 }
 
 
 figure#chaos,figure#chaos img{
 	height: 20px ;
-	
-	
-
-
 }
-
-
-
 
 #upper_nav a{
 	color: #303030;
@@ -142,12 +133,6 @@ figure#chaos,figure#chaos img{
 	position:absolute;
 	right:400px;
 	padding:0px}
-
-
-
-
-
-
 
 #bottom_nav{
 	height: 52px;
@@ -159,8 +144,6 @@ figure#chaos,figure#chaos img{
 	position: absolute;
 	z-index: 20;
 }
-
-
 
 header  nav #bottom_nav figure{
 	margin:0px;
@@ -181,7 +164,6 @@ header  nav #bottom_nav figure img{
 }
 
 
-	
 
 #menu{
 	display: inline-block;
