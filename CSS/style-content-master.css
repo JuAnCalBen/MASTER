@@ -135,8 +135,8 @@ div#banderola{
 
 	h2.h2_master{
 		width: 100%;
-		background:#81b61d ;
-		color: whitesmoke;
+		background:#042444 ;
+		color: white;
 		font-size:2.5em;
 		margin: 5px 0px;
 		padding-left:40px; 
@@ -146,7 +146,7 @@ div#banderola{
 	h3.h3_master{
 		width: 100%;
 		background: lightgray ;
-		color: darkslategray;
+		color: #042444;
 		font-size:1.9em;
 		margin: 100px 0px 0px 20px;
 		padding-left:60px; 
@@ -155,7 +155,7 @@ div#banderola{
 	h4.h4_master{
 		width: 100%;
 		border-bottom: 1px solid darkgreen;
-		color: darkgreen;
+		color: #042444;
 		font-size:1.6em;
 		margin: 70px 0px 30px 30px;
 		padding-left:60px; 

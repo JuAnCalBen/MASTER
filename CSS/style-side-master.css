@@ -85,7 +85,7 @@ La clave de responsive design es que no aparezca la barra horizontal de
 
 #indice_continente ul li a{
 	text-decoration: none;
-	color: #6c9c15;
+	color: #042444;
 	font-size: 0.7em;
 	text-transform: uppercase;
 	margin-left:10px;
@@ -165,7 +165,7 @@ li#li_bot{
 	width: 90%;
 	height: 2em;
 	margin: 5px auto;
-	background: #ededed;
+	background: #042444;
 	color: #6c9c15;
 	font-size: 0.8em;
 	text-transform: uppercase;
@@ -181,7 +181,7 @@ li#li_bot{
 	margin: 5px auto;
 	margin-left:10px;
 	font-size: 0.8em;
-	color: #6c9c15;
+	color: #042444;
 	text-transform: uppercase;
 	
 }
@@ -191,7 +191,7 @@ li#li_bot{
 div#barra_avance{
 	width: 100%;
 	border: 1px solid black;
-	background: green;
+	background: #042444;
 	transform: ScaleX(0);
 	transform-origin: left;
 	animation: progress   linear;
