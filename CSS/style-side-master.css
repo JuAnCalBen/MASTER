@@ -111,7 +111,7 @@ La clave de responsive design es que no aparezca la barra horizontal de
 }
 
 #indice_continente ul li:hover{
-	background: #cde3a5;
+	background: lightblue;
 	}
 
 
@@ -191,7 +191,7 @@ li#li_bot{
 div#barra_avance{
 	width: 100%;
 	border: 1px solid black;
-	background: #042444;
+	background: #042444	;
 	transform: ScaleX(0);
 	transform-origin: left;
 	animation: progress   linear;

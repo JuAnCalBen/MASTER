@@ -154,7 +154,7 @@ div#banderola{
 
 	h4.h4_master{
 		width: 100%;
-		border-bottom: 1px solid darkgreen;
+		border-bottom: 1px solid #042444;
 		color: #042444;
 		font-size:1.6em;
 		margin: 70px 0px 30px 30px;
@@ -224,19 +224,19 @@ div#banderola{
 	table{
 		width: 90%;
 		margin: 1px auto;
-		border: 4px solid darkgreen;
+		border: 4px solid #042444;
 		border-collapse: collapse;
 	}
 
 	th, td {
-  	border: 1px solid green;
+  	border: 1px solid #042444;
   	margin:0px;
 	}
 
 	.table_titulo{
 		font-size: 1.1em;
 		color: white;
-		background: green;
+		background: #042444;
 		font-weight: bold;
 		text-align: center;
 	}
@@ -367,7 +367,7 @@ div#banderola{
     i{
     	font-size: 2em;
     	width: 90px;
-    	blackground: green;
+    	blackground: #042444;
     }
 
     figure#figure_tablero{
